@@ -1,4 +1,4 @@
-# Yêu cầu làm video — THAIFEX 2026: Những điểm công ty trưng bày cần lưu ý
+# Yêu cầu làm video — THAIFEX 2027: Những điểm công ty trưng bày cần lưu ý
 
 > File này dùng để giao cho một công cụ làm video (Motion Studio / HyperFrames, Remotion, hoặc người dựng).
 > Chép nguyên file vào yêu cầu, hoặc đặt file vào thư mục dự án rồi nói: "Làm video theo file YEU-CAU-VIDEO-THAIFEX-2026.md".
@@ -10,7 +10,7 @@
 
 | Mục | Nội dung |
 |---|---|
-| Mục đích | Giúp doanh nghiệp Việt Nam muốn trưng bày tại THAIFEX 2026 nắm nhanh những việc cần làm và những chỗ dễ sai |
+| Mục đích | Giúp doanh nghiệp Việt Nam muốn trưng bày tại THAIFEX 2027 nắm nhanh những việc cần làm và những chỗ dễ sai |
 | Thông điệp chính | Đi qua 4 chặng: Chuẩn bị → Gửi hàng → Tại Bangkok → Kết thúc. Điểm dễ sai nhất: **gửi hàng mẫu, phải xin giấy phép nhập khẩu trước 2 tuần** |
 | Người xem | Doanh nghiệp thực phẩm & đồ uống Việt Nam đang cân nhắc hoặc đã đăng ký trưng bày |
 | Nơi chiếu | Website, YouTube, gửi qua email / Zalo, chiếu trong buổi hướng dẫn → **16:9, 1920×1080** (có thể làm thêm bản 9:16) |
@@ -47,8 +47,8 @@
 
 | Tư liệu | Trạng thái |
 |---|---|
-| Nội dung | Tài liệu "THAIFEX 2026 – Thông tin & kế hoạch trưng bày trên một trang giấy" (2 trang) — đã tóm trong kịch bản dưới |
-| Logo THAIFEX / đơn vị tổ chức | **[CẦN BỔ SUNG]** — tạm dùng chữ "THAIFEX 2026" |
+| Nội dung | Tài liệu "THAIFEX 2027 – Thông tin & kế hoạch trưng bày trên một trang giấy" (2 trang) — đã tóm trong kịch bản dưới |
+| Logo THAIFEX / đơn vị tổ chức | **[CẦN BỔ SUNG]** — tạm dùng chữ "THAIFEX 2027" |
 | Link form đăng ký nhận tài liệu / QR | **[CẦN BỔ SUNG]** |
 | Hotline / email liên hệ | **[CẦN BỔ SUNG]** |
 | Hạn đăng ký, hạn gửi hàng cụ thể | **[CẦN BỔ SUNG]** — nếu chưa có thì không hiển thị ngày |
@@ -56,12 +56,12 @@
 
 ## 4. Kịch bản phân cảnh
 
-> Lời đọc dưới đây viết theo chữ bình thường. Nếu dùng giọng AI, nên viết theo cách đọc: "Thaifex hai không hai sáu", "Băng Cốc", "xe vanh", "A F W", "điện hai mươi bốn trên hai mươi bốn", "bạt Thái". Tránh để chữ cái đứng một mình (vd "Phần B") vì giọng Edge TTS hay lỗi.
+> Lời đọc dưới đây viết theo chữ bình thường. Nếu dùng giọng AI, nên viết theo cách đọc: "Thaifex hai không hai bảy", "Băng Cốc", "xe vanh", "A F W", "điện hai mươi bốn trên hai mươi bốn", "bạt Thái". Tránh để chữ cái đứng một mình (vd "Phần B") vì giọng Edge TTS hay lỗi.
 
 ### Cảnh 1 — Mở đầu (~9 giây)
-- **Lời đọc:** "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex 2026? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
-- **Chữ:** "Quý vị đang quan tâm trưng bày tại **THAIFEX 2026**?" → "Sau đây là một số **điểm quan trọng** quý vị cần lưu ý"
-- **Hình:** câu hỏi hiện từng chữ; logo THAIFEX 2026 bung lên kèm dải 4 màu; bên phải một gian hàng Quốc gia (cờ Việt Nam) tự dựng. Chuyển sang tấm bảng "LƯU Ý" ghim trên nền, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
+- **Lời đọc:** "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex 2027? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
+- **Chữ:** "Quý vị đang quan tâm trưng bày tại **THAIFEX 2027**?" → "Sau đây là một số **điểm quan trọng** quý vị cần lưu ý"
+- **Hình:** câu hỏi hiện từng chữ; logo THAIFEX 2027 bung lên kèm dải 4 màu; bên phải một gian hàng Quốc gia (cờ Việt Nam) tự dựng. Chuyển sang tấm bảng "LƯU Ý" ghim trên nền, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
 
 ### Cảnh 2 — 4 chặng (~8 giây)
 - **Lời đọc:** "Video này sẽ đi cùng quý vị qua bốn chặng. Từ lúc đăng ký, đến khi tháo dỡ gian hàng."
@@ -102,8 +102,8 @@
 - **Hình:** gian hàng đầy hàng → tua ngược dọn sạch → hai gian hàng "Lúc nhận" và "Lúc trả" giống hệt nhau, dấu "=" bung giữa.
 
 ### Cảnh 9 — Kêu gọi hành động (~10 giây)
-- **Lời đọc:** "Toàn bộ hướng dẫn chi tiết, quý vị quét mã để điền form và nhận ngay. Hẹn gặp quý vị tại Thaifex 2026, Bangkok."
-- **Chữ:** "Điền form để nhận trọn bộ tài liệu chi tiết" · **[QR / link form — CẦN BỔ SUNG]** · **[hotline / email — CẦN BỔ SUNG]** · "Hẹn gặp tại THAIFEX 2026 · IMPACT, Bangkok · Tháng 5"
+- **Lời đọc:** "Toàn bộ hướng dẫn chi tiết, quý vị quét mã để điền form và nhận ngay. Hẹn gặp quý vị tại Thaifex 2027, Bangkok."
+- **Chữ:** "Điền form để nhận trọn bộ tài liệu chi tiết" · **[QR / link form — CẦN BỔ SUNG]** · **[hotline / email — CẦN BỔ SUNG]** · "Hẹn gặp tại THAIFEX 2027 · IMPACT, Bangkok · Tháng 5"
 - **Hình:** thanh 4 chặng sáng đủ cả 4, gom lại thành tập "BỘ TÀI LIỆU" → mã QR hiện ra → logo, mờ dần.
 
 ## 5. Không đưa vào video

@@ -1,4 +1,4 @@
-# Kịch bản phân cảnh V3 — THAIFEX 2026: Hành trình của một công ty trưng bày
+# Kịch bản phân cảnh V3 — THAIFEX 2027: Hành trình của một công ty trưng bày
 
 > Bản đề xuất để bạn duyệt **trước khi dựng**. Sửa thẳng vào file này (gạch, thêm, ghi chú) rồi gửi lại.
 > Chỗ ghi **[CẦN BỔ SUNG]** là thông tin tài liệu gốc không có — mình không tự điền để tránh sai.
@@ -30,9 +30,9 @@
 ## 3. Phân cảnh
 
 ### Cảnh 1 — Mở đầu (0:00–0:09)
-- **Hình:** câu hỏi hiện từng chữ, logo THAIFEX 2026 bung lên cùng dải 4 màu, bên phải một gian hàng Quốc gia tự dựng. Chuyển sang tấm bảng "LƯU Ý" ghim trên nền, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
-- **Chữ:** "Quý vị đang quan tâm trưng bày tại THAIFEX 2026?" → "Sau đây là một số điểm quan trọng quý vị cần lưu ý"
-- **Lời đọc:** "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex 2026? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
+- **Hình:** câu hỏi hiện từng chữ, logo THAIFEX 2027 bung lên cùng dải 4 màu, bên phải một gian hàng Quốc gia tự dựng. Chuyển sang tấm bảng "LƯU Ý" ghim trên nền, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
+- **Chữ:** "Quý vị đang quan tâm trưng bày tại THAIFEX 2027?" → "Sau đây là một số điểm quan trọng quý vị cần lưu ý"
+- **Lời đọc:** "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex 2027? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
 - **Âm thanh:** whoosh khi logo hiện, tiếng lật giấy, tiếng tick nhẹ
 
 ### Cảnh 2 — Lời hứa (0:07–0:14)
@@ -82,8 +82,8 @@
 ### Cảnh 9 — CTA (1:36–1:46)
 - **Hình:** timeline 4 chặng sáng đủ, gom lại thành một cuốn “Bộ tài liệu” → mã QR hiện ra.
 - **Chữ:** “Nhận trọn bộ tài liệu chi tiết” + **QR / link form [CẦN BỔ SUNG]** + **hotline / email [CẦN BỔ SUNG]**
-- **Lời đọc:** “Toàn bộ hướng dẫn chi tiết, quét mã để nhận ngay. Hẹn gặp quý vị tại Thaifex hai không hai sáu, Bangkok.”
-- **Kết:** logo THAIFEX 2026 + logo đơn vị tổ chức **[CẦN BỔ SUNG]**, mờ về đen
+- **Lời đọc:** “Toàn bộ hướng dẫn chi tiết, quét mã để nhận ngay. Hẹn gặp quý vị tại Thaifex hai không hai bảy, Bangkok.”
+- **Kết:** logo THAIFEX 2027 + logo đơn vị tổ chức **[CẦN BỔ SUNG]**, mờ về đen
 
 ---
 

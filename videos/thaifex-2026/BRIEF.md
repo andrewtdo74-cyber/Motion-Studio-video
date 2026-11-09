@@ -6,7 +6,7 @@ message: "4 chặng Chuẩn bị → Gửi hàng → Tại Bangkok → Kết th�
 destination: youtube
 aspect: 1920x1080
 language: vi
-audience: "Doanh nghiệp thực phẩm & đồ uống Việt Nam đang cân nhắc hoặc đã đăng ký trưng bày tại THAIFEX 2026"
+audience: "Doanh nghiệp thực phẩm & đồ uống Việt Nam đang cân nhắc hoặc đã đăng ký trưng bày tại THAIFEX 2027"
 length: 70s
 angle: how-to
 voice: vi-VN-HoaiMyNeural
@@ -15,14 +15,14 @@ style_preset: thaifex-journey
 
 ## Intent
 
-Phần đầu (cảnh 1–5, ~70s) của video hướng dẫn "THAIFEX 2026: Những điểm công ty trưng bày cần lưu ý".
+Phần đầu (cảnh 1–5, ~70s) của video hướng dẫn "THAIFEX 2027: Những điểm công ty trưng bày cần lưu ý".
 Kể theo hành trình 4 chặng; cảnh 5 (gửi hàng mẫu) là cảnh quan trọng nhất. Tông sáng, trung tính, không chói,
 giọng điệu hướng dẫn thân thiện, đáng tin. Cảnh 6–9 làm sau, nối tiếp trong cùng project.
 Nguồn: ../../YEU-CAU-VIDEO-THAIFEX-2026.md (mục 4, cảnh 1–5) và ../../script-v3.md (s1–s5).
 
 ## Assets
 
-- Không có logo: dùng chữ "THAIFEX 2026" (biến, thay logo sau).
+- Không có logo: dùng chữ "THAIFEX 2027" (biến, thay logo sau).
 - Mọi hình là minh họa vẽ phẳng tự tạo (danh sách trong frame.md).
 
 ## Customizations

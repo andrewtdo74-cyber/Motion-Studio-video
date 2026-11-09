@@ -1,0 +1,70 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f9-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f9-a{position:absolute;}
+.f9-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);box-sizing:border-box;}
+.f9-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f9-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f9-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f9-stamp{position:absolute;border:5px solid currentColor;border-radius:12px;padding:4px 18px;font-weight:900;font-size:30px;letter-spacing:.06em;white-space:nowrap;background:#fff;}
+.f9-chip{display:inline-flex;align-items:center;gap:14px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:8px 26px 8px 10px;font-weight:600;font-size:28px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f9-ic{flex:none;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:24px;}
+.f9-h{font-weight:800;font-size:24px;letter-spacing:.08em;text-transform:uppercase;}
+.f9-t{font-weight:800;font-size:40px;line-height:1.2;color:#2F343B;}
+.f9-s{font-weight:600;font-size:28px;line-height:1.35;color:#6E727A;}
+.f9-photo{position:absolute;border-radius:22px;overflow:hidden;background:#fff;padding:10px;box-sizing:border-box;box-shadow:0 14px 40px rgba(47,52,59,0.12);}
+.f9-photo img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;}
+.f9-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f9-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f9-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f9-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f9-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+  </style>
+  <div data-hf-id="hf-g03p" id="root" data-composition-id="09-cta" data-width="1920" data-height="1080" data-duration="10.404">
+    <div data-hf-id="hf-g03q" id="f9-bg" class="clip f9-bg" data-start="0" data-duration="10.404" data-track-index="0"></div>
+    <div data-hf-id="hf-g03r" class="f9-a f9-t" id="f9-title" style="left:0;right:0;top:120px;text-align:center;font-size:60px" data-var-text="s9_title">Nhận trọn bộ tài liệu chi tiết</div>
+    <div data-hf-id="hf-g03s" class="f9-card" id="f9-qr" style="left:560px;top:270px;width:380px;height:380px;padding:24px">
+      <div data-hf-id="hf-g03t" style="position:absolute;inset:24px;border:4px dashed #A9ACB1;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px">
+        <svg data-hf-id="hf-g03u" width="120" height="120" viewBox="0 0 120 120"><rect data-hf-id="hf-g03v" x="6" y="6" width="38" height="38" rx="6" fill="none" stroke="#2F343B" stroke-width="8"/><rect data-hf-id="hf-g03w" x="76" y="6" width="38" height="38" rx="6" fill="none" stroke="#2F343B" stroke-width="8"/><rect data-hf-id="hf-g03x" x="6" y="76" width="38" height="38" rx="6" fill="none" stroke="#2F343B" stroke-width="8"/><rect data-hf-id="hf-g03y" x="76" y="76" width="16" height="16" fill="#2F343B"/><rect data-hf-id="hf-g03z" x="98" y="98" width="16" height="16" fill="#2F343B"/></svg>
+        <div data-hf-id="hf-g040" class="f9-h" style="color:#6E727A" data-var-text="s9_qr">MÃ QR</div>
+      </div>
+    </div>
+    <div data-hf-id="hf-g041" class="f9-a" id="f9-side" style="left:1010px;top:330px;width:560px">
+      <div data-hf-id="hf-g042" class="f9-t" style="font-size:46px" data-var-text="s9_scan">Quét mã để điền form</div>
+      <div data-hf-id="hf-g043" class="f9-s" style="margin-top:14px;font-size:34px" data-var-text="s9_scan_sub">và nhận ngay bộ tài liệu</div>
+    </div>
+    <div data-hf-id="hf-g044" class="f9-a" id="f9-see" style="left:0;right:0;top:740px;text-align:center">
+      <div data-hf-id="hf-g045" class="f9-s" style="font-size:32px" data-var-text="s9_see">Hẹn gặp quý vị tại</div>
+      <div data-hf-id="hf-g046" style="font-weight:900;font-size:76px;letter-spacing:.02em;color:#2F343B;margin-top:4px" data-var-text="event_name">THAIFEX 2027</div>
+    </div>
+    <div data-hf-id="hf-g047" class="f9-prog" id="f9-prog"><div data-hf-id="hf-g048" class="f9-prog-track"></div><div data-hf-id="hf-g049" class="f9-pn" id="f9-pn1" style="left:300px;border-color:var(--color_s1, #B4544D);"><div data-hf-id="hf-g04a" class="f9-pd" style="background:var(--color_s1, #B4544D);border-color:var(--color_s1, #B4544D);color:#fff;">1</div><div data-hf-id="hf-g04b" class="f9-pl" style="color:var(--color_s1, #B4544D);font-weight:800;" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-g04c" class="f9-pn" id="f9-pn2" style="left:620px;border-color:var(--color_s2, #C49A4E);"><div data-hf-id="hf-g04d" class="f9-pd" style="background:var(--color_s2, #C49A4E);border-color:var(--color_s2, #C49A4E);color:#fff;">2</div><div data-hf-id="hf-g04e" class="f9-pl" style="color:var(--color_s2, #C49A4E);font-weight:800;" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-g04f" class="f9-pn" id="f9-pn3" style="left:940px;border-color:var(--color_s3, #4F74A8);"><div data-hf-id="hf-g04g" class="f9-pd" style="background:var(--color_s3, #4F74A8);border-color:var(--color_s3, #4F74A8);color:#fff;">3</div><div data-hf-id="hf-g04h" class="f9-pl" style="color:var(--color_s3, #4F74A8);font-weight:800;" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-g04i" class="f9-pn" id="f9-pn4" style="left:1300px;border-color:var(--color_s4, #5F8F6C);"><div data-hf-id="hf-g04j" class="f9-pd" style="background:var(--color_s4, #5F8F6C);border-color:var(--color_s4, #5F8F6C);color:#fff;">4</div><div data-hf-id="hf-g04k" class="f9-pl" style="color:var(--color_s4, #5F8F6C);font-weight:800;" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="09-cta"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="09-cta"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const out = (s, t, d) => tl.fromTo(q(s), { opacity: 1, x: 0 }, { opacity: 0, x: -80, duration: d || 0.45, ease: "power2.in", immediateRender: false }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      wipe("#f9-title", 0.138, 1.0);
+      [1,2,3,4].forEach((n,i)=>pop("#f9-pn"+n, 0.963+i*0.12, {y:20}));
+      pop("#f9-qr", 2.087, {scale:0.7});
+      rise("#f9-side", 2.2870000000000004, 0.6);
+      rise("#f9-see", 4.875, 0.7);
+      tl.fromTo(q("#f9-see"), {scale:1}, {scale:1.04, duration:1.6, ease:"sine.inOut", immediateRender:false}, 5.975);
+      window.__timelines["09-cta"] = tl;
+    })();
+  </script>
+</template>

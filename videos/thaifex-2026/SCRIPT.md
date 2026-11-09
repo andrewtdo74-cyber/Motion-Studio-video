@@ -11,7 +11,7 @@
 **Time:** 0.0 – 8.4s
 **Delivery:** Câu hỏi mời gọi, rồi chuyển sang giọng hướng dẫn.
 
-    Quý vị đang quan tâm trưng bày tại hội chợ Thaifex hai không hai sáu? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý.
+    Quý vị đang quan tâm trưng bày tại hội chợ Thaifex hai không hai bảy? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý.
 
 ## Line 2 — 4 chặng (Frame 2)
 

@@ -1,0 +1,69 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f7-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f7-a{position:absolute;}
+.f7-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);box-sizing:border-box;}
+.f7-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f7-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f7-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f7-stamp{position:absolute;border:5px solid currentColor;border-radius:12px;padding:4px 18px;font-weight:900;font-size:30px;letter-spacing:.06em;white-space:nowrap;background:#fff;}
+.f7-chip{display:inline-flex;align-items:center;gap:14px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:8px 26px 8px 10px;font-weight:600;font-size:28px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f7-ic{flex:none;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:24px;}
+.f7-h{font-weight:800;font-size:24px;letter-spacing:.08em;text-transform:uppercase;}
+.f7-t{font-weight:800;font-size:40px;line-height:1.2;color:#2F343B;}
+.f7-s{font-weight:600;font-size:28px;line-height:1.35;color:#6E727A;}
+.f7-photo{position:absolute;border-radius:22px;overflow:hidden;background:#fff;padding:10px;box-sizing:border-box;box-shadow:0 14px 40px rgba(47,52,59,0.12);}
+.f7-photo img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;}
+.f7-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f7-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f7-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f7-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f7-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+  </style>
+  <div data-hf-id="hf-g01v" id="root" data-composition-id="07-khach-mua" data-width="1920" data-height="1080" data-duration="8.924">
+    <div data-hf-id="hf-g01w" id="f7-bg" class="clip f7-bg" data-start="0" data-duration="8.924" data-track-index="0"></div>
+    <div data-hf-id="hf-g01x" class="f7-badge" id="f7-badge"><div data-hf-id="hf-g01y" class="f7-badge-pill" style="background:var(--color_s3, #4F74A8)" data-var-text="s6_badge">CHẶNG 3</div><div data-hf-id="hf-g01z" class="f7-badge-title" data-var-text="s7_title">Khách mua hàng đến từ đâu</div></div>
+    <svg data-hf-id="hf-g020" class="f7-a" style="left:0;top:0" width="1920" height="1080" viewBox="0 0 1920 1080">
+      <path data-hf-id="hf-g021" id="f7-ar0" d="M780,330 C900,330 920,500 1040,500" fill="none" stroke="var(--color_s3, #4F74A8)" stroke-width="5" stroke-linecap="round" stroke-dasharray="400" stroke-dashoffset="400"/>
+      <path data-hf-id="hf-g022" id="f7-ar1" d="M780,530 C900,530 920,500 1040,500" fill="none" stroke="var(--color_s2, #C49A4E)" stroke-width="5" stroke-linecap="round" stroke-dasharray="400" stroke-dashoffset="400"/>
+      <path data-hf-id="hf-g023" id="f7-ar2" d="M780,730 C900,730 920,500 1040,500" fill="none" stroke="var(--color_s1, #B4544D)" stroke-width="5" stroke-linecap="round" stroke-dasharray="400" stroke-dashoffset="400"/>
+    </svg>
+    <div data-hf-id="hf-g024" class="f7-card" id="f7-s0" style="left:140px;top:270px;width:640px;height:120px;display:flex;align-items:center;gap:22px;padding:0 30px;"><div data-hf-id="hf-g025" class="f7-ic" style="background:var(--color_s3, #4F74A8)">1</div><div data-hf-id="hf-g026" class="f7-t" style="font-size:36px" data-var-text="s7_src1">Ban tổ chức</div></div>
+    <div data-hf-id="hf-g027" class="f7-card" id="f7-s1" style="left:140px;top:470px;width:640px;height:120px;display:flex;align-items:center;gap:22px;padding:0 30px;"><div data-hf-id="hf-g028" class="f7-ic" style="background:var(--color_s2, #C49A4E)">2</div><div data-hf-id="hf-g029" class="f7-t" style="font-size:30px" data-var-text="s7_src2">Chương trình AFW – Công ty Phương Bắc</div></div>
+    <div data-hf-id="hf-g02a" class="f7-card" id="f7-s2" style="left:140px;top:670px;width:640px;height:120px;display:flex;align-items:center;gap:22px;padding:0 30px;border:3px solid var(--color_s1, #B4544D);"><div data-hf-id="hf-g02b" class="f7-ic" style="background:var(--color_s1, #B4544D)">3</div><div data-hf-id="hf-g02c" class="f7-t" style="font-size:36px" data-var-text="s7_src3">Đối tác quý vị chủ động mời</div></div>
+    <div data-hf-id="hf-g02d" class="f7-photo" id="f7-booth" style="left:1060px;top:300px;width:720px;height:400px"><img data-hf-id="hf-g02e" src="assets/booths/vietnam-pavilion.png" alt="Gian hàng tại hội chợ"></div>
+    <div data-hf-id="hf-g02f" class="f7-a f7-s" id="f7-bl" style="left:1060px;top:720px;width:720px;text-align:center;font-weight:800;color:#2F343B">Gian hàng của quý vị</div>
+    <div data-hf-id="hf-g02g" class="f7-prog" id="f7-prog"><div data-hf-id="hf-g02h" class="f7-prog-track"></div><div data-hf-id="hf-g02i" class="f7-pn" id="f7-pn1" style="left:300px;"><div data-hf-id="hf-g02j" class="f7-pd" style="">1</div><div data-hf-id="hf-g02k" class="f7-pl" style="" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-g02l" class="f7-pn" id="f7-pn2" style="left:620px;"><div data-hf-id="hf-g02m" class="f7-pd" style="">2</div><div data-hf-id="hf-g02n" class="f7-pl" style="" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-g02o" class="f7-pn" id="f7-pn3" style="left:940px;border-color:var(--color_s3, #4F74A8);"><div data-hf-id="hf-g02p" class="f7-pd" style="background:var(--color_s3, #4F74A8);border-color:var(--color_s3, #4F74A8);color:#fff;">3</div><div data-hf-id="hf-g02q" class="f7-pl" style="color:var(--color_s3, #4F74A8);font-weight:800;" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-g02r" class="f7-pn" id="f7-pn4" style="left:1300px;"><div data-hf-id="hf-g02s" class="f7-pd" style="">4</div><div data-hf-id="hf-g02t" class="f7-pl" style="" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="07-khach-mua"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="07-khach-mua"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const out = (s, t, d) => tl.fromTo(q(s), { opacity: 1, x: 0 }, { opacity: 0, x: -80, duration: d || 0.45, ease: "power2.in", immediateRender: false }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      tl.fromTo(q("#f7-badge"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, 0.1);
+      rise("#f7-booth", 0.3, 0.6); rise("#f7-bl", 0.6, 0.5);
+      rise("#f7-s0", 1.275, 0.5);
+      tl.fromTo(q("#f7-ar0"), {strokeDashoffset:400}, {strokeDashoffset:0, duration:0.7, ease:"power2.out"}, 1.575);
+      rise("#f7-s1", 2.337, 0.5);
+      tl.fromTo(q("#f7-ar1"), {strokeDashoffset:400}, {strokeDashoffset:0, duration:0.7, ease:"power2.out"}, 2.637);
+      rise("#f7-s2", 5.463, 0.5);
+      tl.fromTo(q("#f7-ar2"), {strokeDashoffset:400}, {strokeDashoffset:0, duration:0.7, ease:"power2.out"}, 5.763);
+      tl.fromTo(q("#f7-s2"), {scale:1}, {scale:1.05, duration:0.4, ease:"back.out(2)", yoyo:true, repeat:1, immediateRender:false}, 7.45);
+      window.__timelines["07-khach-mua"] = tl;
+    })();
+  </script>
+</template>

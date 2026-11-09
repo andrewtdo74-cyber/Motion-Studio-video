@@ -1,4 +1,4 @@
-# Kế hoạch làm video motion — THAIFEX 2026: Thông tin & Kế hoạch trưng bày tại Hội chợ
+# Kế hoạch làm video motion — THAIFEX 2027: Thông tin & Kế hoạch trưng bày tại Hội chợ
 
 Làm hoàn toàn bằng **Claude Code** (tab Code trong app Claude Desktop) + **Remotion** (dựng video bằng React), lồng tiếng tiếng Việt bằng AI.
 
@@ -42,7 +42,7 @@ thaifex-video/
 
 | # | Cảnh | Nội dung chính | Thời lượng |
 |---|---|---|---|
-| 0 | Intro | THAIFEX 2026 — Thông tin & kế hoạch trưng bày | 6s |
+| 0 | Intro | THAIFEX 2027 — Thông tin & kế hoạch trưng bày | 6s |
 | 1 | A. Trở thành công ty trưng bày | Lợi ích hội chợ quốc tế & gian hàng Quốc gia, các bước tham dự, quy trình đăng ký, ngân sách, brochure, hồ sơ, thanh toán | 15s |
 | 2 | B. Kế hoạch trưng bày | B1 Dàn dựng gian hàng (Quốc gia / tiêu chuẩn / đất trống) · B2 Thuê thiết bị · B3 Dịch vụ khác · B4 Gửi hàng mẫu (lưu ý hải quan, giấy phép nhập khẩu trước 2 tuần) | 25s |
 | 3 | C. Dàn dựng & tháo dỡ | Hoàn trả thiết bị, tháo dỡ sau hội chợ — trả lại đúng hiện trạng lúc nhận | 12s |
@@ -66,7 +66,7 @@ thaifex-video/
 
 - Viết đầy đủ chữ tắt: "BTC" → "Ban tổ chức", "DV" → "dịch vụ", "THB" → "bạt Thái"
 - Thêm dấu phẩy để giọng ngắt hơi tự nhiên
-- Nghe thử cách đọc "2026", "IMPACT", "AFW" và sửa phiên âm nếu cần
+- Nghe thử cách đọc "2027", "IMPACT", "AFW" và sửa phiên âm nếu cần
 
 ## 7. Bước tiếp theo
 

@@ -3,7 +3,7 @@ format: 1920x1080
 duration: 70s
 message: "4 chặng Chuẩn bị → Gửi hàng → Tại Bangkok → Kết thúc; dễ sai nhất là gửi hàng mẫu"
 arc: Hook → Lời hứa 4 chặng → Chặng 1 (gian hàng, hồ sơ) → Chặng 2 (gửi hàng mẫu, cảnh quan trọng nhất)
-audience: Doanh nghiệp F&B Việt Nam trưng bày tại THAIFEX 2026
+audience: Doanh nghiệp F&B Việt Nam trưng bày tại THAIFEX 2027
 mode: collaborative
 music: none
 ---
@@ -11,16 +11,16 @@ music: none
 ## Frame 1 — Mở đầu
 
 - act: Mở đầu
-- scene: Câu hỏi THAIFEX 2026 + gian hàng Quốc gia tự dựng, rồi bảng LƯU Ý 4 dòng được tick
+- scene: Câu hỏi THAIFEX 2027 + gian hàng Quốc gia tự dựng, rồi bảng LƯU Ý 4 dòng được tick
 - duration: 8.424s
 - transition_in: cut
 - status: animated
-- voiceover: "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex hai không hai sáu? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
+- voiceover: "Quý vị đang quan tâm trưng bày tại hội chợ Thaifex hai không hai bảy? Sau đây là một số điểm quan trọng mà quý vị cần lưu ý."
 - src: compositions/frames/01-mo-dau.html
 - blueprint: compose
 - sfx: whoosh, tick
 
-Scene 1 (0–4.4s): câu hỏi hiện theo lời đọc, "THAIFEX 2026" bung lên đúng lúc giọng nói "Thaifex", dải 4 màu kẻ ra; bên phải gian hàng Quốc gia (cờ VN) tự dựng. → Scene 2 (4.4–8.4s): bảng "LƯU Ý" trượt vào, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
+Scene 1 (0–4.4s): câu hỏi hiện theo lời đọc, "THAIFEX 2027" bung lên đúng lúc giọng nói "Thaifex", dải 4 màu kẻ ra; bên phải gian hàng Quốc gia (cờ VN) tự dựng. → Scene 2 (4.4–8.4s): bảng "LƯU Ý" trượt vào, 4 dòng lần lượt được tick: Chọn loại gian hàng · Gửi hàng mẫu đúng hạn · Di chuyển & thanh toán · Hoàn trả gian hàng.
 
 ## Frame 2 — 4 chặng
 

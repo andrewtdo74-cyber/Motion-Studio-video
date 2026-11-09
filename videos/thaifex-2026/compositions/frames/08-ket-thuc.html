@@ -1,0 +1,63 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f8-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f8-a{position:absolute;}
+.f8-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);box-sizing:border-box;}
+.f8-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f8-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f8-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f8-stamp{position:absolute;border:5px solid currentColor;border-radius:12px;padding:4px 18px;font-weight:900;font-size:30px;letter-spacing:.06em;white-space:nowrap;background:#fff;}
+.f8-chip{display:inline-flex;align-items:center;gap:14px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:8px 26px 8px 10px;font-weight:600;font-size:28px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f8-ic{flex:none;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:24px;}
+.f8-h{font-weight:800;font-size:24px;letter-spacing:.08em;text-transform:uppercase;}
+.f8-t{font-weight:800;font-size:40px;line-height:1.2;color:#2F343B;}
+.f8-s{font-weight:600;font-size:28px;line-height:1.35;color:#6E727A;}
+.f8-photo{position:absolute;border-radius:22px;overflow:hidden;background:#fff;padding:10px;box-sizing:border-box;box-shadow:0 14px 40px rgba(47,52,59,0.12);}
+.f8-photo img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;}
+.f8-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f8-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f8-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f8-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f8-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+  </style>
+  <div data-hf-id="hf-g02u" id="root" data-composition-id="08-ket-thuc" data-width="1920" data-height="1080" data-duration="11.924">
+    <div data-hf-id="hf-g02v" id="f8-bg" class="clip f8-bg" data-start="0" data-duration="11.924" data-track-index="0"></div>
+    <div data-hf-id="hf-g02w" class="f8-badge" id="f8-badge"><div data-hf-id="hf-g02x" class="f8-badge-pill" style="background:var(--color_s4, #5F8F6C)" data-var-text="s8_badge">CHẶNG 4</div><div data-hf-id="hf-g02y" class="f8-badge-title" data-var-text="s8_title">Khi hội chợ kết thúc</div></div>
+    <div data-hf-id="hf-g02z" class="f8-photo" id="f8-p1" style="left:220px;top:220px;width:620px;height:400px"><img data-hf-id="hf-g030" src="assets/booths/standard-booth.png" alt="Gian hàng lúc nhận"></div>
+    <div data-hf-id="hf-g031" class="f8-photo" id="f8-p2" style="left:1080px;top:220px;width:620px;height:400px"><img data-hf-id="hf-g032" src="assets/booths/standard-booth.png" alt="Gian hàng lúc trả"></div>
+    <div data-hf-id="hf-g033" class="f8-a f8-h" id="f8-l1" style="left:220px;top:640px;width:620px;text-align:center;color:#6E727A" data-var-text="s8_l1">Lúc nhận</div>
+    <div data-hf-id="hf-g034" class="f8-a f8-h" id="f8-l2" style="left:1080px;top:640px;width:620px;text-align:center;color:var(--color_s4, #5F8F6C)" data-var-text="s8_l2">Lúc trả</div>
+    <div data-hf-id="hf-g035" class="f8-a" id="f8-eq" style="left:900px;top:350px;width:120px;text-align:center;font-weight:900;font-size:110px;line-height:1;color:var(--color_s4, #5F8F6C)">=</div>
+    <div data-hf-id="hf-g036" class="f8-a f8-t" id="f8-msg" style="left:0;right:0;top:700px;text-align:center;font-size:48px" data-var-text="s8_msg">Nhận thế nào — trả đúng như thế</div>
+    <div data-hf-id="hf-g037" class="f8-a" style="left:0;right:0;top:800px;display:flex;justify-content:center"><div data-hf-id="hf-g038" class="f8-chip" id="f8-chip"><div data-hf-id="hf-g039" class="f8-ic" style="background:var(--color_s4, #5F8F6C)">✓</div><span data-hf-id="hf-g03a" data-var-text="s8_chip">Poster, hình dán: để lại cho Ban tổ chức dọn dẹp</span></div></div>
+    <div data-hf-id="hf-g03b" class="f8-prog" id="f8-prog"><div data-hf-id="hf-g03c" class="f8-prog-track"></div><div data-hf-id="hf-g03d" class="f8-pn" id="f8-pn1" style="left:300px;"><div data-hf-id="hf-g03e" class="f8-pd" style="">1</div><div data-hf-id="hf-g03f" class="f8-pl" style="" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-g03g" class="f8-pn" id="f8-pn2" style="left:620px;"><div data-hf-id="hf-g03h" class="f8-pd" style="">2</div><div data-hf-id="hf-g03i" class="f8-pl" style="" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-g03j" class="f8-pn" id="f8-pn3" style="left:940px;"><div data-hf-id="hf-g03k" class="f8-pd" style="">3</div><div data-hf-id="hf-g03l" class="f8-pl" style="" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-g03m" class="f8-pn" id="f8-pn4" style="left:1300px;border-color:var(--color_s4, #5F8F6C);"><div data-hf-id="hf-g03n" class="f8-pd" style="background:var(--color_s4, #5F8F6C);border-color:var(--color_s4, #5F8F6C);color:#fff;">4</div><div data-hf-id="hf-g03o" class="f8-pl" style="color:var(--color_s4, #5F8F6C);font-weight:800;" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="08-ket-thuc"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="08-ket-thuc"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const out = (s, t, d) => tl.fromTo(q(s), { opacity: 1, x: 0 }, { opacity: 0, x: -80, duration: d || 0.45, ease: "power2.in", immediateRender: false }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      tl.fromTo(q("#f8-badge"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, 0.1);
+      rise("#f8-p1", 2.975, 0.6); rise("#f8-l1", 3.1750000000000003, 0.4);
+      wipe("#f8-msg", 2.975, 2.6);
+      pop("#f8-eq", 4.575, {scale:0});
+      rise("#f8-p2", 5.275, 0.6); rise("#f8-l2", 5.4750000000000005, 0.4);
+      pop("#f8-chip", 6.938, {y:30});
+      window.__timelines["08-ket-thuc"] = tl;
+    })();
+  </script>
+</template>
