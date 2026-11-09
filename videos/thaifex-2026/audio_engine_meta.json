@@ -1,0 +1,127 @@
+{
+  "tts_provider": null,
+  "voice_id": null,
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [],
+  "sfx": [
+    {
+      "id": "01",
+      "name": "whoosh",
+      "file": "assets/sfx/whoosh.mp3",
+      "source": "openverse",
+      "duration_s": 3.155,
+      "license": "cc0",
+      "credit": "\"Deep Whoosh #1\" by Kinoton is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "01",
+      "name": "tick",
+      "file": "assets/sfx/tick.mp3",
+      "source": "openverse",
+      "duration_s": 3.657,
+      "license": "cc0",
+      "credit": "\"Ticking Clock\" by AntumDeluge is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "02",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "openverse",
+      "duration_s": 0.489,
+      "license": "by",
+      "credit": "\"Pop, High, A (H1).wav\" by InspectorJ is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "03",
+      "name": "whoosh",
+      "file": "assets/sfx/whoosh.mp3",
+      "source": "openverse",
+      "duration_s": 3.155,
+      "license": "cc0",
+      "credit": "\"Deep Whoosh #1\" by Kinoton is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "03",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "openverse",
+      "duration_s": 0.489,
+      "license": "by",
+      "credit": "\"Pop, High, A (H1).wav\" by InspectorJ is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "04",
+      "name": "tick",
+      "file": "assets/sfx/tick.mp3",
+      "source": "openverse",
+      "duration_s": 3.657,
+      "license": "cc0",
+      "credit": "\"Ticking Clock\" by AntumDeluge is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "04",
+      "name": "whoosh",
+      "file": "assets/sfx/whoosh.mp3",
+      "source": "openverse",
+      "duration_s": 3.155,
+      "license": "cc0",
+      "credit": "\"Deep Whoosh #1\" by Kinoton is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "05",
+      "name": "stamp",
+      "file": "assets/sfx/stamp.mp3",
+      "source": "openverse",
+      "duration_s": 0.582,
+      "license": "cc0",
+      "credit": "\"Stamp\" by kermite607 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "05",
+      "name": "whoosh",
+      "file": "assets/sfx/whoosh.mp3",
+      "source": "openverse",
+      "duration_s": 3.155,
+      "license": "cc0",
+      "credit": "\"Deep Whoosh #1\" by Kinoton is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    },
+    {
+      "id": "05",
+      "name": "ding",
+      "file": "assets/sfx/ding.mp3",
+      "source": "openverse",
+      "duration_s": 3.379,
+      "license": "by",
+      "credit": "\"Ding\" by Aiwha is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+      "offset_s": 0,
+      "volume": 0.35
+    }
+  ],
+  "total_duration_s": 0
+}

@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="vi" data-composition-variables='[{"id":"event_name","type":"string","label":"T\u00ean s\u1ef1 ki\u1ec7n","default":"THAIFEX 2026"},{"id":"event_place","type":"string","label":"\u0110\u1ecba \u0111i\u1ec3m \u00b7 th\u1eddi gian","default":"IMPACT, Bangkok \u00b7 Th\u00e1ng 5"},{"id":"stage1","type":"string","label":"Ch\u1eb7ng 1","default":"Chu\u1ea9n b\u1ecb"},{"id":"stage2","type":"string","label":"Ch\u1eb7ng 2","default":"G\u1eedi h\u00e0ng"},{"id":"stage3","type":"string","label":"Ch\u1eb7ng 3","default":"T\u1ea1i Bangkok"},{"id":"stage4","type":"string","label":"Ch\u1eb7ng 4","default":"K\u1ebft th\u00fac"},{"id":"color_s1","type":"color","label":"M\u00e0u ch\u1eb7ng 1","default":"#B4544D"},{"id":"color_s2","type":"color","label":"M\u00e0u ch\u1eb7ng 2","default":"#C49A4E"},{"id":"color_s3","type":"color","label":"M\u00e0u ch\u1eb7ng 3","default":"#4F74A8"},{"id":"color_s4","type":"color","label":"M\u00e0u ch\u1eb7ng 4","default":"#5F8F6C"},{"id":"color_bg","type":"color","label":"M\u00e0u n\u1ec1n","default":"#F5F2EC"},{"id":"color_bg2","type":"color","label":"M\u00e0u n\u1ec1n ph\u1ee5","default":"#E9E4DA"},{"id":"s1_q1","type":"string","label":"C\u1ea3nh 1 \u00b7 c\u00e2u h\u1ecfi d\u00f2ng 1","default":"Qu\u00fd v\u1ecb \u0111ang quan t\u00e2m"},{"id":"s1_q2","type":"string","label":"C\u1ea3nh 1 \u00b7 c\u00e2u h\u1ecfi d\u00f2ng 2","default":"tr\u01b0ng b\u00e0y t\u1ea1i"},{"id":"s1_note","type":"string","label":"C\u1ea3nh 1 \u00b7 nh\u00e3n b\u1ea3ng","default":"L\u01afU \u00dd"},{"id":"s1_heading","type":"string","label":"C\u1ea3nh 1 \u00b7 ti\u00eau \u0111\u1ec1 b\u1ea3ng","default":"M\u1ed9t s\u1ed1 \u0111i\u1ec3m quan tr\u1ecdng qu\u00fd v\u1ecb c\u1ea7n l\u01b0u \u00fd"},{"id":"s1_item1","type":"string","label":"C\u1ea3nh 1 \u00b7 d\u00f2ng 1","default":"Ch\u1ecdn lo\u1ea1i gian h\u00e0ng"},{"id":"s1_item2","type":"string","label":"C\u1ea3nh 1 \u00b7 d\u00f2ng 2","default":"G\u1eedi h\u00e0ng m\u1eabu \u0111\u00fang h\u1ea1n"},{"id":"s1_item3","type":"string","label":"C\u1ea3nh 1 \u00b7 d\u00f2ng 3","default":"Di chuy\u1ec3n & thanh to\u00e1n"},{"id":"s1_item4","type":"string","label":"C\u1ea3nh 1 \u00b7 d\u00f2ng 4","default":"Ho\u00e0n tr\u1ea3 gian h\u00e0ng"},{"id":"s2_title","type":"string","label":"C\u1ea3nh 2 \u00b7 ti\u00eau \u0111\u1ec1","default":"H\u00e0nh tr\u00ecnh 4 ch\u1eb7ng"},{"id":"s2_sub","type":"string","label":"C\u1ea3nh 2 \u00b7 ti\u00eau \u0111\u1ec1 ph\u1ee5","default":"c\u1ee7a m\u1ed9t c\u00f4ng ty tr\u01b0ng b\u00e0y"},{"id":"s2_from","type":"string","label":"C\u1ea3nh 2 \u00b7 t\u1eeb l\u00fac","default":"T\u1eeb l\u00fac \u0111\u0103ng k\u00fd"},{"id":"s2_to","type":"string","label":"C\u1ea3nh 2 \u00b7 \u0111\u1ebfn khi","default":"\u0111\u1ebfn khi th\u00e1o d\u1ee1 gian h\u00e0ng"},{"id":"s3_badge","type":"string","label":"Nh\u00e3n ch\u1eb7ng 1","default":"CH\u1eb6NG 1"},{"id":"s3_title","type":"string","label":"C\u1ea3nh 3 \u00b7 ti\u00eau \u0111\u1ec1","default":"Ch\u1ecdn lo\u1ea1i gian h\u00e0ng"},{"id":"s3_booth1","type":"string","label":"C\u1ea3nh 3 \u00b7 gian h\u00e0ng 1","default":"Gian h\u00e0ng Qu\u1ed1c gia Vi\u1ec7t Nam"},{"id":"s3_booth2","type":"string","label":"C\u1ea3nh 3 \u00b7 gian h\u00e0ng 2","default":"Gian h\u00e0ng ti\u00eau chu\u1ea9n"},{"id":"s3_booth3","type":"string","label":"C\u1ea3nh 3 \u00b7 gian h\u00e0ng 3","default":"Gian th\u00f4 (\u0111\u1ea5t tr\u1ed1ng)"},{"id":"s3_msg_a","type":"string","label":"C\u1ea3nh 3 \u00b7 th\u00f4ng \u0111i\u1ec7p tr\u00e1i","default":"Lo\u1ea1i gian h\u00e0ng"},{"id":"s3_msg_b","type":"string","label":"C\u1ea3nh 3 \u00b7 th\u00f4ng \u0111i\u1ec7p ph\u1ea3i","default":"quy\u1ebft \u0111\u1ecbnh ai d\u00e0n d\u1ef1ng & ai th\u00e1o d\u1ee1"},{"id":"s3_more","type":"string","label":"C\u1ea3nh 3 \u00b7 nh\u00e3n thu\u00ea th\u00eam","default":"C\u00d3 TH\u1ec2 THU\u00ca TH\u00caM"},{"id":"s3_chip1","type":"string","label":"Chip 1","default":"B\u00e0n gh\u1ebf, k\u1ec7"},{"id":"s3_chip2","type":"string","label":"Chip 2","default":"T\u1ee7 c\u1ea5p \u0111\u00f4ng"},{"id":"s3_chip3","type":"string","label":"Chip 3","default":"\u0110i\u1ec7n 24/24"},{"id":"s3_chip4","type":"string","label":"Chip 4","default":"In logo b\u1ea3ng t\u00ean"},{"id":"s3_chip5","type":"string","label":"Chip 5","default":"Th\u1ebb ra v\u00e0o"},{"id":"s3_chip6","type":"string","label":"Chip 6","default":"Qu\u1ea3ng c\u00e1o, t\u00e0i tr\u1ee3"},{"id":"s4_title","type":"string","label":"C\u1ea3nh 4 \u00b7 ti\u00eau \u0111\u1ec1","default":"\u0110\u0103ng k\u00fd & ng\u00e2n s\u00e1ch"},{"id":"s4_doc1","type":"string","label":"C\u1ea3nh 4 \u00b7 th\u1ebb 1","default":"H\u1ed3 s\u01a1 \u0111\u0103ng k\u00fd"},{"id":"s4_doc2","type":"string","label":"C\u1ea3nh 4 \u00b7 th\u1ebb 2","default":"B\u1ea3ng t\u00ednh ng\u00e2n s\u00e1ch"},{"id":"s4_doc3","type":"string","label":"C\u1ea3nh 4 \u00b7 th\u1ebb 3","default":"H\u01b0\u1edbng d\u1eabn thanh to\u00e1n"},{"id":"s4_b1","type":"string","label":"C\u1ed9t ng\u00e2n s\u00e1ch 1","default":"Gian h\u00e0ng"},{"id":"s4_b2","type":"string","label":"C\u1ed9t ng\u00e2n s\u00e1ch 2","default":"Thi\u1ebft b\u1ecb"},{"id":"s4_b3","type":"string","label":"C\u1ed9t ng\u00e2n s\u00e1ch 3","default":"\u0110i l\u1ea1i"},{"id":"s4_b4","type":"string","label":"C\u1ed9t ng\u00e2n s\u00e1ch 4","default":"L\u01b0u tr\u00fa"},{"id":"s4_kit","type":"string","label":"C\u1ea3nh 4 \u00b7 t\u00ean b\u1ed9 t\u00e0i li\u1ec7u","default":"B\u1ed8 T\u00c0I LI\u1ec6U"},{"id":"s4_kit_sub","type":"string","label":"C\u1ea3nh 4 \u00b7 d\u00f2ng d\u01b0\u1edbi","default":"d\u00e0nh cho c\u00f4ng ty tr\u01b0ng b\u00e0y"},{"id":"s5_badge","type":"string","label":"Nh\u00e3n ch\u1eb7ng 2","default":"CH\u1eb6NG 2"},{"id":"s5_title","type":"string","label":"C\u1ea3nh 5 \u00b7 ti\u00eau \u0111\u1ec1","default":"G\u1eedi h\u00e0ng m\u1eabu"},{"id":"s5_from","type":"string","label":"C\u1ea3ng \u0111i","default":"VI\u1ec6T NAM"},{"id":"s5_to","type":"string","label":"C\u1ea3ng \u0111\u1ebfn","default":"TH\u00c1I LAN"},{"id":"s5_deadline","type":"string","label":"C\u1ea3nh 5 \u00b7 h\u1ea1n ch\u00f3t","default":"Theo h\u1ea1n ch\u00f3t c\u1ee7a c\u00f4ng ty v\u1eadn chuy\u1ec3n ch\u00ednh th\u1ee9c c\u1ee7a h\u1ed9i ch\u1ee3"},{"id":"s5_branch","type":"string","label":"C\u1ea3nh 5 \u00b7 \u0111i\u1ec1u ki\u1ec7n","default":"N\u1ebfu d\u00f9ng c\u00f4ng ty v\u1eadn chuy\u1ec3n kh\u00e1c, l\u01b0u \u00fd 2 \u0111i\u1ec1u:"},{"id":"s5_rule1","type":"string","label":"C\u1ea3nh 5 \u00b7 \u0111i\u1ec1u 1","default":"Th\u1ef1c ph\u1ea9m, \u0111\u1ed3 u\u1ed1ng: khai b\u00e1o theo quy \u0111\u1ecbnh h\u1ea3i quan Th\u00e1i Lan"},{"id":"s5_rule2","type":"string","label":"C\u1ea3nh 5 \u00b7 \u0111i\u1ec1u 2","default":"K\u1ec3 c\u1ea3 g\u1eedi chuy\u1ec3n ph\u00e1t nhanh, v\u1eabn ph\u1ea3i xin gi\u1ea5y ph\u00e9p nh\u1eadp kh\u1ea9u tr\u01b0\u1edbc 2 tu\u1ea7n"},{"id":"stamp_warn","type":"string","label":"D\u1ea5u c\u1ea3nh b\u00e1o","default":"D\u1ec4 SAI NH\u1ea4T"},{"id":"stamp_declare","type":"string","label":"D\u1ea5u khai b\u00e1o","default":"KHAI B\u00c1O"},{"id":"stamp_clear","type":"string","label":"D\u1ea5u th\u00f4ng quan","default":"TH\u00d4NG QUAN"},{"id":"stamp_2weeks","type":"string","label":"D\u1ea5u th\u1eddi h\u1ea1n","default":"TR\u01af\u1edaC 2 TU\u1ea6N"}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #F5F2EC;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-du47"
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="72.512"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div data-hf-id="hf-nynf"
+        id="el-01-mo-dau"
+        class="scene"
+        data-composition-id="01-mo-dau"
+        data-composition-src="compositions/frames/01-mo-dau.html"
+        data-start="0"
+        data-duration="8.924"
+        data-track-index="0"
+      ></div>
+      <audio data-hf-id="hf-5q0v"
+        id="el-01-mo-dau-voice"
+        src="assets/voice/vo-01.mp3"
+        data-start="0"
+        data-duration="8.424"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div data-hf-id="hf-fhdh"
+        id="el-02-bon-chang"
+        class="scene"
+        data-composition-id="02-bon-chang"
+        data-composition-src="compositions/frames/02-bon-chang.html"
+        data-start="8.424"
+        data-duration="7.628"
+        data-track-index="1"
+      ></div>
+      <audio data-hf-id="hf-sufr"
+        id="el-02-bon-chang-voice"
+        src="assets/voice/vo-02.mp3"
+        data-start="8.424"
+        data-duration="7.128"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div data-hf-id="hf-5snd"
+        id="el-03-chon-gian-hang"
+        class="scene"
+        data-composition-id="03-chon-gian-hang"
+        data-composition-src="compositions/frames/03-chon-gian-hang.html"
+        data-start="15.552"
+        data-duration="25.628"
+        data-track-index="0"
+      ></div>
+      <audio data-hf-id="hf-rzuz"
+        id="el-03-chon-gian-hang-voice"
+        src="assets/voice/vo-03.mp3"
+        data-start="15.552"
+        data-duration="25.128"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div data-hf-id="hf-sv0i"
+        id="el-04-ho-so"
+        class="scene"
+        data-composition-id="04-ho-so"
+        data-composition-src="compositions/frames/04-ho-so.html"
+        data-start="40.68"
+        data-duration="7.532"
+        data-track-index="1"
+      ></div>
+      <audio data-hf-id="hf-y2em"
+        id="el-04-ho-so-voice"
+        src="assets/voice/vo-04.mp3"
+        data-start="40.68"
+        data-duration="7.032"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div data-hf-id="hf-arwu"
+        id="el-05-gui-hang-mau"
+        class="scene"
+        data-composition-id="05-gui-hang-mau"
+        data-composition-src="compositions/frames/05-gui-hang-mau.html"
+        data-start="47.712"
+        data-duration="24.8"
+        data-track-index="0"
+      ></div>
+      <audio data-hf-id="hf-9k6f"
+        id="el-05-gui-hang-mau-voice"
+        src="assets/voice/vo-05.mp3"
+        data-start="47.712"
+        data-duration="24.8"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <!-- BGM -->
+      <audio data-hf-id="hf-vs8g"
+        id="el-bgm"
+        src="assets/music.wav"
+        data-start="0"
+        data-duration="72.512"
+        data-track-index="11"
+        data-volume="0.12"
+      ></audio>
+
+      <!-- SFX -->
+      <audio data-hf-id="hf-exgi"
+        id="el-sfx-0"
+        src="assets/sfx/pop.mp3"
+        data-start="2.28"
+        data-duration="0.49"
+        data-track-index="20"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-zqr2"
+        id="el-sfx-1"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="4.25"
+        data-duration="1"
+        data-track-index="21"
+        data-volume="0.22"
+      ></audio>
+      <audio data-hf-id="hf-iqih"
+        id="el-sfx-2"
+        src="assets/sfx/tick-short.mp3"
+        data-start="5.3"
+        data-duration="0.25"
+        data-track-index="22"
+        data-volume="0.7"
+      ></audio>
+      <audio data-hf-id="hf-8xmf"
+        id="el-sfx-3"
+        src="assets/sfx/tick-short.mp3"
+        data-start="5.85"
+        data-duration="0.25"
+        data-track-index="23"
+        data-volume="0.7"
+      ></audio>
+      <audio data-hf-id="hf-joy9"
+        id="el-sfx-4"
+        src="assets/sfx/tick-short.mp3"
+        data-start="6.4"
+        data-duration="0.25"
+        data-track-index="24"
+        data-volume="0.7"
+      ></audio>
+      <audio data-hf-id="hf-py3t"
+        id="el-sfx-5"
+        src="assets/sfx/tick-short.mp3"
+        data-start="6.95"
+        data-duration="0.25"
+        data-track-index="25"
+        data-volume="0.7"
+      ></audio>
+      <audio data-hf-id="hf-daqt"
+        id="el-sfx-6"
+        src="assets/sfx/pop.mp3"
+        data-start="10.604"
+        data-duration="0.49"
+        data-track-index="26"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-bscf"
+        id="el-sfx-7"
+        src="assets/sfx/pop.mp3"
+        data-start="10.844"
+        data-duration="0.49"
+        data-track-index="27"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-tx8s"
+        id="el-sfx-8"
+        src="assets/sfx/pop.mp3"
+        data-start="11.084"
+        data-duration="0.49"
+        data-track-index="28"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-aoo3"
+        id="el-sfx-9"
+        src="assets/sfx/pop.mp3"
+        data-start="11.324"
+        data-duration="0.49"
+        data-track-index="29"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-k9pf"
+        id="el-sfx-10"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="14.274"
+        data-duration="1"
+        data-track-index="30"
+        data-volume="0.22"
+      ></audio>
+      <audio data-hf-id="hf-7i28"
+        id="el-sfx-11"
+        src="assets/sfx/pop.mp3"
+        data-start="18.302"
+        data-duration="0.49"
+        data-track-index="31"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-dgan"
+        id="el-sfx-12"
+        src="assets/sfx/pop.mp3"
+        data-start="20.702"
+        data-duration="0.49"
+        data-track-index="32"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-w0b9"
+        id="el-sfx-13"
+        src="assets/sfx/pop.mp3"
+        data-start="23.752"
+        data-duration="0.49"
+        data-track-index="33"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-30wv"
+        id="el-sfx-14"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="30.852"
+        data-duration="1"
+        data-track-index="34"
+        data-volume="0.22"
+      ></audio>
+      <audio data-hf-id="hf-kh3v"
+        id="el-sfx-15"
+        src="assets/sfx/pop.mp3"
+        data-start="32.352"
+        data-duration="0.49"
+        data-track-index="35"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-o4x9"
+        id="el-sfx-16"
+        src="assets/sfx/pop.mp3"
+        data-start="33.102"
+        data-duration="0.49"
+        data-track-index="36"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-vmkq"
+        id="el-sfx-17"
+        src="assets/sfx/pop.mp3"
+        data-start="34.052"
+        data-duration="0.49"
+        data-track-index="37"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-o59q"
+        id="el-sfx-18"
+        src="assets/sfx/pop.mp3"
+        data-start="35.882"
+        data-duration="0.49"
+        data-track-index="38"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-zj3x"
+        id="el-sfx-19"
+        src="assets/sfx/pop.mp3"
+        data-start="37.382"
+        data-duration="0.49"
+        data-track-index="39"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-btj9"
+        id="el-sfx-20"
+        src="assets/sfx/pop.mp3"
+        data-start="38.532"
+        data-duration="0.49"
+        data-track-index="40"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-6nuw"
+        id="el-sfx-21"
+        src="assets/sfx/tick-short.mp3"
+        data-start="43.68"
+        data-duration="0.25"
+        data-track-index="41"
+        data-volume="0.7"
+      ></audio>
+      <audio data-hf-id="hf-0uyd"
+        id="el-sfx-22"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="44.08"
+        data-duration="1"
+        data-track-index="42"
+        data-volume="0.22"
+      ></audio>
+      <audio data-hf-id="hf-bn82"
+        id="el-sfx-23"
+        src="assets/sfx/pop.mp3"
+        data-start="44.66"
+        data-duration="0.49"
+        data-track-index="43"
+        data-volume="0.3"
+      ></audio>
+      <audio data-hf-id="hf-oxy6"
+        id="el-sfx-24"
+        src="assets/sfx/stamp.mp3"
+        data-start="50.682"
+        data-duration="0.58"
+        data-track-index="44"
+        data-volume="0.55"
+      ></audio>
+      <audio data-hf-id="hf-8qrw"
+        id="el-sfx-25"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="55.962"
+        data-duration="1"
+        data-track-index="45"
+        data-volume="0.22"
+      ></audio>
+      <audio data-hf-id="hf-vzk4"
+        id="el-sfx-26"
+        src="assets/sfx/stamp.mp3"
+        data-start="62.782"
+        data-duration="0.58"
+        data-track-index="46"
+        data-volume="0.55"
+      ></audio>
+      <audio data-hf-id="hf-jfqy"
+        id="el-sfx-27"
+        src="assets/sfx/stamp.mp3"
+        data-start="69.682"
+        data-duration="0.58"
+        data-track-index="47"
+        data-volume="0.55"
+      ></audio>
+      <audio data-hf-id="hf-50hj"
+        id="el-sfx-28"
+        src="assets/sfx/stamp.mp3"
+        data-start="70.232"
+        data-duration="0.58"
+        data-track-index="48"
+        data-volume="0.55"
+      ></audio>
+      <audio data-hf-id="hf-rugc"
+        id="el-sfx-29"
+        src="assets/sfx/ding-short.mp3"
+        data-start="70.312"
+        data-duration="1.8"
+        data-track-index="49"
+        data-volume="0.35"
+      ></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-mo-dau", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 8.424);
+        tl.fromTo("#el-02-bon-chang", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 8.424);
+        tl.addLabel("hf:transition:01-mo-dau:02-bon-chang:crossfade", 8.424);
+        tl.to("#el-02-bon-chang", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 15.552);
+        tl.fromTo("#el-03-chon-gian-hang", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 15.552);
+        tl.addLabel("hf:transition:02-bon-chang:03-chon-gian-hang:crossfade", 15.552);
+        tl.to("#el-03-chon-gian-hang", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 40.68);
+        tl.fromTo("#el-04-ho-so", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 40.68);
+        tl.addLabel("hf:transition:03-chon-gian-hang:04-ho-so:crossfade", 40.68);
+        tl.to("#el-04-ho-so", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 47.712);
+        tl.fromTo("#el-05-gui-hang-mau", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 47.712);
+        tl.addLabel("hf:transition:04-ho-so:05-gui-hang-mau:crossfade", 47.712);
+        tl.to({}, { duration: 72.512 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
+    </script>
+  </body>
+</html>

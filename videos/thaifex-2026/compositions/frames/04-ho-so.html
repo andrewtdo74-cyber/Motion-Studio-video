@@ -1,0 +1,88 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f4-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f4-a{position:absolute;}
+.f4-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);}
+.f4-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f4-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f4-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f4-stamp{position:absolute;border:6px solid currentColor;border-radius:14px;padding:6px 22px;font-weight:900;font-size:40px;letter-spacing:.06em;white-space:nowrap;background:rgba(255,255,255,0.55);}
+.f4-chip{position:absolute;display:flex;align-items:center;gap:16px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:10px 30px 10px 12px;font-weight:600;font-size:30px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f4-chip-ic{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.f4-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f4-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f4-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f4-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f4-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+
+.f4-dc{top:230px;width:440px;height:470px;}
+.f4-dt{left:0;right:0;bottom:40px;text-align:center;font-weight:700;font-size:34px;color:#2F343B;}
+.f4-ln{position:absolute;left:70px;height:14px;border-radius:7px;background:#E9E4DA;}
+.f4-lnf{position:absolute;left:70px;height:14px;border-radius:7px;background:var(--color_s1, #B4544D);opacity:.55;}
+.f4-bar{position:absolute;bottom:150px;width:56px;border-radius:10px 10px 4px 4px;}
+.f4-bl{position:absolute;bottom:112px;width:92px;text-align:center;font-weight:600;font-size:18px;color:#6E727A;}
+.f4-kit{left:0;right:0;top:700px;text-align:center;}
+.f4-kt{font-weight:900;font-size:64px;letter-spacing:.04em;color:#2F343B;}
+.f4-ks{font-weight:600;font-size:38px;color:#6E727A;margin-top:6px;}
+
+  </style>
+  <div data-hf-id="hf-2q47" id="root" data-composition-id="04-ho-so" data-width="1920" data-height="1080" data-duration="7.532">
+    <div data-hf-id="hf-2qad" id="f4-bg" class="clip f4-bg" data-start="0" data-duration="7.532" data-track-index="0"></div>
+
+    <div data-hf-id="hf-iwo2" class="f4-badge" id="f4-badge"><div data-hf-id="hf-11b0" class="f4-badge-pill" style="background:var(--color_s1, #B4544D)" data-var-text="s3_badge">CHẶNG 1</div><div data-hf-id="hf-s9ka" class="f4-badge-title" data-var-text="s4_title">Đăng ký &amp; ngân sách</div></div>
+    <div data-hf-id="hf-bry5" class="f4-card f4-dc" id="f4-d1" style="left:210px"><div data-hf-id="hf-cmsx" class="f4-ln" style="top:90px;width:300px"></div><div data-hf-id="hf-2v9i" class="f4-lnf" id="f4-lf0" style="top:90px;width:300px"></div><div data-hf-id="hf-n6wg" class="f4-ln" style="top:136px;width:230px"></div><div data-hf-id="hf-43c0" class="f4-lnf" id="f4-lf1" style="top:136px;width:230px"></div><div data-hf-id="hf-ix7d" class="f4-ln" style="top:182px;width:300px"></div><div data-hf-id="hf-eu0a" class="f4-lnf" id="f4-lf2" style="top:182px;width:300px"></div><div data-hf-id="hf-6ujm" class="f4-ln" style="top:228px;width:230px"></div><div data-hf-id="hf-nh30" class="f4-lnf" id="f4-lf3" style="top:228px;width:230px"></div><div data-hf-id="hf-x4bt" class="f4-ln" style="top:274px;width:300px"></div><div data-hf-id="hf-n8wk" class="f4-lnf" id="f4-lf4" style="top:274px;width:300px"></div><div data-hf-id="hf-p3qn" class="f4-dt" data-var-text="s4_doc1">Hồ sơ đăng ký</div></div>
+    <div data-hf-id="hf-dm42" class="f4-card f4-dc" id="f4-d2" style="left:740px"><div data-hf-id="hf-hc5c" class="f4-bar" id="f4-bar0" style="left:46px;height:150px;background:var(--color_s1, #B4544D)"></div><div data-hf-id="hf-kuoa" class="f4-bl" style="left:28px" data-var-text="s4_b1">Gian hàng</div><div data-hf-id="hf-3ttf" class="f4-bar" id="f4-bar1" style="left:138px;height:110px;background:var(--color_s2, #C49A4E)"></div><div data-hf-id="hf-3p0f" class="f4-bl" style="left:120px" data-var-text="s4_b2">Thiết bị</div><div data-hf-id="hf-cits" class="f4-bar" id="f4-bar2" style="left:230px;height:80px;background:var(--color_s3, #4F74A8)"></div><div data-hf-id="hf-79r2" class="f4-bl" style="left:212px" data-var-text="s4_b3">Đi lại</div><div data-hf-id="hf-qgs3" class="f4-bar" id="f4-bar3" style="left:322px;height:120px;background:var(--color_s4, #5F8F6C)"></div><div data-hf-id="hf-sph9" class="f4-bl" style="left:304px" data-var-text="s4_b4">Lưu trú</div><div data-hf-id="hf-zn7r" class="f4-dt" data-var-text="s4_doc2">Bảng tính ngân sách</div></div>
+    <div data-hf-id="hf-kiwm" class="f4-card f4-dc" id="f4-d3" style="left:1270px">
+      <svg data-hf-id="hf-enbt" class="f4-a" style="left:90px;top:80px" width="260" height="170" viewBox="0 0 260 170"><rect data-hf-id="hf-gvn5" x="10" y="20" width="240" height="140" rx="16" fill="var(--color_s3, #4F74A8)"/><rect data-hf-id="hf-25z7" x="10" y="52" width="240" height="26" fill="#2F343B" opacity=".35"/><rect data-hf-id="hf-pcc1" x="34" y="104" width="70" height="14" rx="7" fill="#fff" opacity=".8"/><rect data-hf-id="hf-etoo" x="34" y="128" width="120" height="10" rx="5" fill="#fff" opacity=".5"/></svg>
+      <svg data-hf-id="hf-ph2q" class="f4-a" id="f4-ok" style="left:250px;top:200px" width="96" height="96" viewBox="0 0 52 52"><circle data-hf-id="hf-4wnq" cx="26" cy="26" r="24" fill="var(--color_s4, #5F8F6C)"/><path data-hf-id="hf-2tmk" d="M15 27 L23 35 L38 18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div data-hf-id="hf-fvlx" class="f4-dt" data-var-text="s4_doc3">Hướng dẫn thanh toán</div></div>
+    <svg data-hf-id="hf-0724" class="f4-a" id="f4-folder" style="left:700px;top:200px" width="520" height="460" viewBox="0 0 520 460">
+      <path data-hf-id="hf-a2t6" d="M30,80 L190,80 L225,40 L490,40 L490,420 L30,420 Z" fill="#C9A26F"/>
+      <rect data-hf-id="hf-o0lj" x="62" y="70" width="380" height="300" rx="10" fill="#fff" transform="rotate(-4 250 220)"/>
+      <rect data-hf-id="hf-0trw" x="80" y="86" width="380" height="300" rx="10" fill="#FAF8F4" transform="rotate(3 270 236)"/>
+      <path data-hf-id="hf-x6cy" d="M20,140 L500,140 L480,430 L40,430 Z" fill="#D9B98C"/>
+      <rect data-hf-id="hf-lp4l" x="150" y="230" width="220" height="70" rx="12" fill="#fff"/>
+      <rect data-hf-id="hf-vj7x" x="170" y="252" width="40" height="26" rx="5" fill="var(--color_s1, #B4544D)"/><rect data-hf-id="hf-b57a" x="214" y="252" width="40" height="26" rx="5" fill="var(--color_s2, #C49A4E)"/><rect data-hf-id="hf-c0b5" x="258" y="252" width="40" height="26" rx="5" fill="var(--color_s3, #4F74A8)"/><rect data-hf-id="hf-ljlk" x="302" y="252" width="40" height="26" rx="5" fill="var(--color_s4, #5F8F6C)"/>
+    </svg>
+    <div data-hf-id="hf-a8k2" class="f4-a f4-kit" id="f4-kit"><div data-hf-id="hf-ktq2" class="f4-kt" id="f4-kt" data-var-text="s4_kit">BỘ TÀI LIỆU</div><div data-hf-id="hf-dn9t" class="f4-ks" id="f4-ks" data-var-text="s4_kit_sub">dành cho công ty trưng bày</div></div>
+    <div data-hf-id="hf-ybi8" class="f4-prog" id="f4-prog"><div data-hf-id="hf-7445" class="f4-prog-track"></div><div data-hf-id="hf-1v0t" class="f4-pn" id="f4-pn1" style="left:300px;border-color:var(--color_s1, #B4544D);"><div data-hf-id="hf-uxal" class="f4-pd" style="background:var(--color_s1, #B4544D);border-color:var(--color_s1, #B4544D);color:#fff;">1</div><div data-hf-id="hf-pr8y" class="f4-pl" style="color:var(--color_s1, #B4544D);font-weight:800;" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-zdx6" class="f4-pn" id="f4-pn2" style="left:620px;"><div data-hf-id="hf-49yd" class="f4-pd" style="">2</div><div data-hf-id="hf-5hgq" class="f4-pl" style="" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-l4fk" class="f4-pn" id="f4-pn3" style="left:940px;"><div data-hf-id="hf-8q8i" class="f4-pd" style="">3</div><div data-hf-id="hf-9nkq" class="f4-pl" style="" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-goy2" class="f4-pn" id="f4-pn4" style="left:1300px;"><div data-hf-id="hf-aprn" class="f4-pd" style="">4</div><div data-hf-id="hf-g4fv" class="f4-pl" style="" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="04-ho-so"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="04-ho-so"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      const build = (bid, t) => {
+        tl.fromTo(q("#" + bid + " ." + bid + "-floor"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, t);
+        tl.fromTo(q("#" + bid + " ." + bid + "-walls"), { opacity: 0, scaleY: 0, transformOrigin: "50% 100%" }, { opacity: 1, scaleY: 1, duration: 0.5, ease: "back.out(1.4)" }, t + 0.15);
+        ["shelf", "flag", "counter", "sign"].forEach((k, i) => { const el = q("#" + bid + " ." + bid + "-" + k); if (el) tl.fromTo(el, { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(2)" }, t + 0.45 + i * 0.12); });
+      };
+
+      tl.fromTo(q("#f4-badge"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
+      rise("#f4-d1", 0.12, 0.5);
+      tl.fromTo(qa("#f4-d1 .f4-lnf"), { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.25, stagger: 0.14, ease: "power1.inOut" }, 0.45);
+      rise("#f4-d2", 1.25, 0.5);
+      tl.fromTo(qa("#f4-d2 .f4-bar"), { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.45, stagger: 0.12, ease: "back.out(1.6)" }, 1.55);
+      rise("#f4-d3", 2.3, 0.5);
+      pop("#f4-ok", 2.85, { scale: 0 });
+      [1, 2, 3].forEach((n, i) => tl.fromTo(q("#f4-d" + n), { x: 0, scale: 1, opacity: 1 }, { x: (2 - n) * 530, scale: 0.35, opacity: 0, duration: 0.6, ease: "power3.in", immediateRender: false }, 3.45 + i * 0.08));
+      pop("#f4-folder", 3.95, { scale: 0.5, y: 40 });
+      wipe("#f4-kt", 4.4, 0.6);
+      rise("#f4-ks", 4.85, 0.5);
+      window.__timelines["04-ho-so"] = tl;
+    })();
+  </script>
+</template>

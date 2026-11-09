@@ -1,0 +1,76 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f2-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f2-a{position:absolute;}
+.f2-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);}
+.f2-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f2-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f2-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f2-stamp{position:absolute;border:6px solid currentColor;border-radius:14px;padding:6px 22px;font-weight:900;font-size:40px;letter-spacing:.06em;white-space:nowrap;background:rgba(255,255,255,0.55);}
+.f2-chip{position:absolute;display:flex;align-items:center;gap:16px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:10px 30px 10px 12px;font-weight:600;font-size:30px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f2-chip-ic{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.f2-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f2-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f2-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f2-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f2-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+
+.f2-t{left:0;right:0;top:150px;text-align:center;font-weight:800;font-size:76px;letter-spacing:-.015em;color:#2F343B;}
+.f2-st{left:0;right:0;top:250px;text-align:center;font-weight:600;font-size:40px;color:#6E727A;}
+.f2-line{left:450px;top:509px;width:1020px;height:6px;border-radius:3px;background:rgba(47,52,59,0.18);}
+.f2-c{top:437px;width:150px;height:150px;border-radius:50%;color:#fff;font-weight:900;font-size:68px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(47,52,59,0.12);}
+.f2-cl{top:612px;width:300px;text-align:center;font-weight:700;font-size:38px;color:#2F343B;}
+.f2-from{left:0;right:0;top:760px;text-align:center;font-weight:600;font-size:42px;color:#2F343B;display:flex;justify-content:center;gap:28px;}
+.f2-from b{font-weight:800;}
+
+  </style>
+  <div data-hf-id="hf-6a3u" id="root" data-composition-id="02-bon-chang" data-width="1920" data-height="1080" data-duration="7.628">
+    <div data-hf-id="hf-xuu7" id="f2-bg" class="clip f2-bg" data-start="0" data-duration="7.628" data-track-index="0"></div>
+
+    <div data-hf-id="hf-rk9y" class="f2-a f2-t" id="f2-t" data-var-text="s2_title">Hành trình 4 chặng</div>
+    <div data-hf-id="hf-e6g5" class="f2-a f2-st" id="f2-st" data-var-text="s2_sub">của một công ty trưng bày</div>
+    <div data-hf-id="hf-381d" id="f2-diag" class="f2-a" style="inset:0">
+      <div data-hf-id="hf-sola" class="f2-a f2-line" id="f2-line"></div>
+      <div data-hf-id="hf-xpp9" class="f2-a f2-c" id="f2-c1" style="left:300px;background:var(--color_s1, #B4544D)">1</div><div data-hf-id="hf-o965" class="f2-a f2-cl" id="f2-cl1" style="left:225px" data-var-text="stage1">Chuẩn bị</div><div data-hf-id="hf-sfx8" class="f2-a f2-c" id="f2-c2" style="left:660px;background:var(--color_s2, #C49A4E)">2</div><div data-hf-id="hf-v9vy" class="f2-a f2-cl" id="f2-cl2" style="left:585px" data-var-text="stage2">Gửi hàng</div><div data-hf-id="hf-7h98" class="f2-a f2-c" id="f2-c3" style="left:1020px;background:var(--color_s3, #4F74A8)">3</div><div data-hf-id="hf-t6wj" class="f2-a f2-cl" id="f2-cl3" style="left:945px" data-var-text="stage3">Tại Bangkok</div><div data-hf-id="hf-a10g" class="f2-a f2-c" id="f2-c4" style="left:1380px;background:var(--color_s4, #5F8F6C)">4</div><div data-hf-id="hf-sqng" class="f2-a f2-cl" id="f2-cl4" style="left:1305px" data-var-text="stage4">Kết thúc</div>
+    </div>
+    <div data-hf-id="hf-8d0a" class="f2-a f2-from" id="f2-from"><span data-hf-id="hf-e86k" id="f2-f1" data-var-text="s2_from">Từ lúc đăng ký</span><span data-hf-id="hf-w3dp" id="f2-arr" style="color:var(--color_s1, #B4544D)">→</span><b data-hf-id="hf-4r4j" id="f2-f2" style="color:var(--color_s4, #5F8F6C)" data-var-text="s2_to">đến khi tháo dỡ gian hàng</b></div>
+    <div data-hf-id="hf-ggp8" class="f2-prog" id="f2-prog"><div data-hf-id="hf-x3uz" class="f2-prog-track"></div><div data-hf-id="hf-un2w" class="f2-pn" id="f2-pn1" style="left:300px;"><div data-hf-id="hf-7kcm" class="f2-pd" style="">1</div><div data-hf-id="hf-bufz" class="f2-pl" style="" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-y7le" class="f2-pn" id="f2-pn2" style="left:620px;"><div data-hf-id="hf-7ynn" class="f2-pd" style="">2</div><div data-hf-id="hf-8y98" class="f2-pl" style="" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-46zc" class="f2-pn" id="f2-pn3" style="left:940px;"><div data-hf-id="hf-8cyo" class="f2-pd" style="">3</div><div data-hf-id="hf-j97g" class="f2-pl" style="" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-deya" class="f2-pn" id="f2-pn4" style="left:1300px;"><div data-hf-id="hf-5kth" class="f2-pd" style="">4</div><div data-hf-id="hf-w8kl" class="f2-pl" style="" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="02-bon-chang"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="02-bon-chang"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      const build = (bid, t) => {
+        tl.fromTo(q("#" + bid + " ." + bid + "-floor"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, t);
+        tl.fromTo(q("#" + bid + " ." + bid + "-walls"), { opacity: 0, scaleY: 0, transformOrigin: "50% 100%" }, { opacity: 1, scaleY: 1, duration: 0.5, ease: "back.out(1.4)" }, t + 0.15);
+        ["shelf", "flag", "counter", "sign"].forEach((k, i) => { const el = q("#" + bid + " ." + bid + "-" + k); if (el) tl.fromTo(el, { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(2)" }, t + 0.45 + i * 0.12); });
+      };
+
+      wipe("#f2-t", 0.12, 0.8);
+      rise("#f2-st", 0.75, 0.5);
+      tl.fromTo(q("#f2-line"), { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 1.1, ease: "power2.inOut" }, 2.2);
+      [2.18, 2.42, 2.66, 2.9].forEach((t, i) => { pop("#f2-c" + (i + 1), t, { scale: 0.2 }); rise("#f2-cl" + (i + 1), t + 0.15, 0.45); });
+      tl.fromTo(q("#f2-f1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" }, 3.6);
+      tl.fromTo(q("#f2-arr"), { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 4.55);
+      wipe("#f2-f2", 4.75, 0.9);
+      tl.fromTo(q("#f2-diag"), { scale: 1, y: 0, opacity: 1 }, { scale: 0.42, y: 300, opacity: 0, duration: 0.7, ease: "power3.inOut", transformOrigin: "50% 50%", immediateRender: false }, 5.9);
+      tl.fromTo(q("#f2-prog"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 6.2);
+      tl.fromTo(q("#f2-from"), { y: 0 }, { y: -150, duration: 0.7, ease: "power3.inOut", immediateRender: false }, 5.95);
+      window.__timelines["02-bon-chang"] = tl;
+    })();
+  </script>
+</template>
