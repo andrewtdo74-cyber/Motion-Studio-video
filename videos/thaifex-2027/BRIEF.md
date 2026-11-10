@@ -18,7 +18,7 @@ style_preset: thaifex-journey
 Phần đầu (cảnh 1–5, ~70s) của video hướng dẫn "THAIFEX 2027: Những điểm công ty trưng bày cần lưu ý".
 Kể theo hành trình 4 chặng; cảnh 5 (gửi hàng mẫu) là cảnh quan trọng nhất. Tông sáng, trung tính, không chói,
 giọng điệu hướng dẫn thân thiện, đáng tin. Cảnh 6–9 làm sau, nối tiếp trong cùng project.
-Nguồn: ../../YEU-CAU-VIDEO-THAIFEX-2026.md (mục 4, cảnh 1–5) và ../../script-v3.md (s1–s5).
+Nguồn: docs/YEU-CAU-VIDEO-THAIFEX-2026.md (mục 4, cảnh 1–5) và docs/script-v3.md (s1–s5).
 
 ## Assets
 

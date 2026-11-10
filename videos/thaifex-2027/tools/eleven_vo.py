@@ -1,10 +1,11 @@
-import re,json,urllib.request,base64,sys
+import re,json,urllib.request,base64,sys,os
+HERE=os.path.dirname(os.path.abspath(__file__)); PROJ=os.path.dirname(HERE)
 sys.stdout.reconfigure(encoding="utf-8")
-k=re.search(r'ELEVENLABS_API_KEY=(\S+)',open('.env',encoding='utf8').read()).group(1)
-md=open('LOI-DOC-ANNA-THU.md',encoding='utf8').read()
+k=re.search(r'ELEVENLABS_API_KEY=(\S+)',open(os.path.join(PROJ,'..','..','.env'),encoding='utf8').read()).group(1)
+md=open(os.path.join(PROJ,'docs','LOI-DOC-ANNA-THU.md'),encoding='utf8').read()
 segs=re.findall(r'### (vo-[\w-]+)\.mp3\n```\n(.*?)\n```',md,re.S)
-model=sys.argv[1]; out="videos/thaifex-2026/assets/voice-huyentrang"
-import os; os.makedirs(out,exist_ok=True); meta={}
+model=sys.argv[1]; out=os.path.join(PROJ,"assets","voice-huyentrang")
+os.makedirs(out,exist_ok=True); meta={}
 for name,t in segs:
   body=json.dumps({"text":t,"model_id":model}).encode()
   r=json.load(urllib.request.urlopen(urllib.request.Request("https://api.elevenlabs.io/v1/text-to-speech/BlZK9tHPU6XXjwOSIiYA/with-timestamps?output_format=mp3_44100_128",data=body,headers={"xi-api-key":k,"Content-Type":"application/json"})))
