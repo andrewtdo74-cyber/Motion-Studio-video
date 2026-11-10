@@ -29,12 +29,12 @@ Scene 1 (0–4.4s): câu hỏi hiện theo lời đọc, "THAIFEX 2027" bung lê
 - duration: 7.128s
 - transition_in: crossfade
 - status: animated
-- voiceover: "Video này sẽ đi cùng quý vị qua bốn chặng. Từ lúc đăng ký, đến khi tháo dỡ gian hàng."
+- voiceover: "Video này sẽ đi cùng quý vị qua bốn bước. Từ lúc đăng ký, đến khi tháo dỡ gian hàng."
 - src: compositions/frames/02-bon-chang.html
 - blueprint: compose
 - sfx: pop
 
-Scene 1 (0–2.2s): tiêu đề "Hành trình 4 chặng của một công ty trưng bày". → Scene 2 (2.2–3.5s): 4 vòng tròn bung ra đúng lúc "bốn chặng", đường nối tự vẽ. → Scene 3 (3.6–5.8s): "Từ lúc đăng ký → đến khi tháo dỡ gian hàng". → Scene 4 (5.9–7.1s): sơ đồ thu nhỏ xuống thành thanh tiến trình ở cạnh dưới.
+Scene 1 (0–2.2s): tiêu đề "Hành trình 4 chặng của một công ty trưng bày". → Scene 2 (2.2–3.5s): 4 vòng tròn bung ra đúng lúc "bốn bước", đường nối tự vẽ. → Scene 3 (3.6–5.8s): "Từ lúc đăng ký → đến khi tháo dỡ gian hàng". → Scene 4 (5.9–7.1s): sơ đồ thu nhỏ xuống thành thanh tiến trình ở cạnh dưới.
 
 ## Frame 3 — Chặng 1: Chọn loại gian hàng
 
@@ -43,7 +43,7 @@ Scene 1 (0–2.2s): tiêu đề "Hành trình 4 chặng của một công ty tr�
 - duration: 25.128s
 - transition_in: crossfade
 - status: animated
-- voiceover: "Chặng một, chọn loại gian hàng. Gian hàng Quốc gia Việt Nam. Gian hàng tiêu chuẩn. Hoặc gian thô, dàn dựng theo thiết kế riêng. Lựa chọn này quyết định ai dàn dựng, và ai tháo dỡ khi hội chợ kết thúc. Quý vị cũng có thể thuê thêm bàn ghế, tủ cấp đông, điện hai mươi bốn trên hai mươi bốn, in logo trên bảng tên, thẻ ra vào, hay quảng cáo và tài trợ."
+- voiceover: "Bước một, chọn loại gian hàng. Gian hàng Quốc gia Việt Nam. Gian hàng tiêu chuẩn. Hoặc gian thô, dàn dựng theo thiết kế riêng. Lựa chọn này quyết định ai dàn dựng, và ai tháo dỡ khi hội chợ kết thúc. Quý vị cũng có thể thuê thêm bàn ghế, tủ cấp đông, điện hai mươi bốn trên hai mươi bốn, in logo trên bảng tên, thẻ ra vào, hay quảng cáo và tài trợ."
 - src: compositions/frames/03-chon-gian-hang.html
 - blueprint: compose
 - sfx: whoosh, pop
@@ -71,7 +71,7 @@ Scene 1 (0–3.4s): 3 thẻ hiện theo lời đọc: hồ sơ tự điền, c�
 - duration: 24.8s
 - transition_in: crossfade
 - status: animated
-- voiceover: "Chặng hai, gửi hàng mẫu, và đây là chỗ dễ sai nhất. Hãy theo đúng hạn chót của công ty vận chuyển chính thức của hội chợ. Nếu dùng công ty vận chuyển khác, cần lưu ý hai điều. Một, thực phẩm và đồ uống đem đi trưng bày phải khai báo theo quy định hải quan Thái Lan. Hai, ngay cả khi gửi chuyển phát nhanh, vẫn phải xin giấy phép nhập khẩu trước hai tuần."
+- voiceover: "Bước hai, gửi hàng mẫu, và đây là chỗ dễ sai nhất. Hãy theo đúng hạn chót của công ty vận chuyển chính thức của hội chợ. Nếu dùng công ty vận chuyển khác, cần lưu ý hai điều. Một, thực phẩm và đồ uống đem đi trưng bày phải khai báo theo quy định hải quan Thái Lan. Hai, ngay cả khi gửi chuyển phát nhanh, vẫn phải xin giấy phép nhập khẩu trước hai tuần."
 - src: compositions/frames/05-gui-hang-mau.html
 - blueprint: compose
 - sfx: stamp, whoosh, ding
