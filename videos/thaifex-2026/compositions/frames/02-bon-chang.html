@@ -70,7 +70,9 @@
       tl.fromTo(q("#f2-diag"), { scale: 1, y: 0, opacity: 1 }, { scale: 0.42, y: 300, opacity: 0, duration: 0.7, ease: "power3.inOut", transformOrigin: "50% 50%", immediateRender: false }, 5.9);
       tl.fromTo(q("#f2-prog"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 6.2);
       tl.fromTo(q("#f2-from"), { y: 0 }, { y: -150, duration: 0.7, ease: "power3.inOut", immediateRender: false }, 5.95);
-      window.__timelines["02-bon-chang"] = tl;
+      const __K=[[0.0, 0.0], [7.128, 6.441], [7.128, 6.441], [7.628, 6.903]]; const __o=gsap.timeline({paused:true});
+      for(let i=0;i<__K.length-1;i++) __o.fromTo(tl,{time:__K[i][0]},{time:__K[i+1][0],duration:__K[i+1][1]-__K[i][1],ease:"none",immediateRender:false},__K[i][1]);
+      window.__timelines["02-bon-chang"] = __o;
     })();
   </script>
 </template>

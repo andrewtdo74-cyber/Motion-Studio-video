@@ -56,7 +56,7 @@
       <div data-hf-id="hf-g00u" class="f6-card" id="f6-van" style="left:930px;top:510px;width:900px;height:270px;padding:30px 40px">
         <svg data-hf-id="hf-g00v" class="f6-a" id="f6-vanic" style="left:40px;top:70px" width="200" height="120" viewBox="0 0 200 120"><path data-hf-id="hf-g00w" d="M10,30 Q10,14 26,14 L130,14 Q146,14 156,28 L184,60 Q190,66 190,76 L190,92 L10,92 Z" fill="var(--color_s3, #4F74A8)"/><rect data-hf-id="hf-g00x" x="26" y="26" width="34" height="28" rx="5" fill="#fff" opacity=".85"/><rect data-hf-id="hf-g00y" x="68" y="26" width="34" height="28" rx="5" fill="#fff" opacity=".85"/><path data-hf-id="hf-g00z" d="M110,26 L136,26 L158,54 L110,54 Z" fill="#fff" opacity=".85"/><circle data-hf-id="hf-g010" cx="50" cy="94" r="16" fill="#2F343B"/><circle data-hf-id="hf-g011" cx="50" cy="94" r="6" fill="#fff"/><circle data-hf-id="hf-g012" cx="152" cy="94" r="16" fill="#2F343B"/><circle data-hf-id="hf-g013" cx="152" cy="94" r="6" fill="#fff"/></svg>
         <div data-hf-id="hf-g014" class="f6-a" style="left:280px;top:50px;width:520px">
-          <div data-hf-id="hf-g015" class="f6-t" id="f6-vt">Nhóm từ 4 người<br>→ thuê xe van</div>
+          <div data-hf-id="hf-g015" class="f6-t" id="f6-vt">Nhóm từ 4 người<br data-hf-id="hf-x5px">→ thuê xe van</div>
           <div data-hf-id="hf-g016" class="f6-s" id="f6-vs" style="margin-top:14px">Xe 7 chỗ không đủ chỗ cho cả người và hành lý</div>
         </div>
       </div>
@@ -105,7 +105,9 @@
       rise("#f6-pay2", 17.55, 0.6);
       rise("#f6-warn", 22.525, 0.5);
       tl.set(q("#f6-B"), {opacity:1}, 0);
-      window.__timelines["06-den-bangkok"] = tl;
+      const __K=[[0.0, 0.0], [25.728, 27.417], [25.728, 27.417], [26.228, 27.961]]; const __o=gsap.timeline({paused:true});
+      for(let i=0;i<__K.length-1;i++) __o.fromTo(tl,{time:__K[i][0]},{time:__K[i+1][0],duration:__K[i+1][1]-__K[i][1],ease:"none",immediateRender:false},__K[i][1]);
+      window.__timelines["06-den-bangkok"] = __o;
     })();
   </script>
 </template>

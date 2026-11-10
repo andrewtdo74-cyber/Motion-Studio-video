@@ -64,7 +64,9 @@
       rise("#f9-side", 2.2870000000000004, 0.6);
       rise("#f9-see", 4.875, 0.7);
       tl.fromTo(q("#f9-see"), {scale:1}, {scale:1.04, duration:1.6, ease:"sine.inOut", immediateRender:false}, 5.975);
-      window.__timelines["09-cta"] = tl;
+      const __K=[[0.0, 0.0], [8.904, 8.139], [10.404, 9.639]]; const __o=gsap.timeline({paused:true});
+      for(let i=0;i<__K.length-1;i++) __o.fromTo(tl,{time:__K[i][0]},{time:__K[i+1][0],duration:__K[i+1][1]-__K[i][1],ease:"none",immediateRender:false},__K[i][1]);
+      window.__timelines["09-cta"] = __o;
     })();
   </script>
 </template>
