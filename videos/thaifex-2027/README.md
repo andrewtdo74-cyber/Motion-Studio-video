@@ -80,6 +80,7 @@ Cần gói ElevenLabs trả phí (Starter trở lên) mới dùng được giọ
 | v3 | 10/11/2026 | Đổi "chặng" thành "bước" |
 | v4 | 10/11/2026 | Sửa dấu "?" bị nghiêng |
 | v5 | 10/11/2026 | Giọng ElevenLabs HuyenTrang, canh lại thời gian |
-| (đang sửa) | 10/11/2026 | Số gian đổi thành NO.00; dự án chuyển sang thư mục thaifex-2027 |
+| v6 | 10/11/2026 | Số gian đổi thành NO.00; dự án chuyển sang thư mục thaifex-2027 |
+| v7 | 10/11/2026 | Mã QR thật của form đăng ký ở cảnh cuối |
 
 Chi tiết từng lần sửa: xem `LOG-CHINH-SUA.xlsx`.
