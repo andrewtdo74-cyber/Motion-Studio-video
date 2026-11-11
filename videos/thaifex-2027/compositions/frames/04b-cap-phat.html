@@ -1,0 +1,97 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");font-weight:500;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");font-weight:700;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal;}
+@font-face{font-family:"Be Vietnam Pro";src:url("assets/fonts/BeVietnamPro-Black.ttf") format("truetype");font-weight:900;font-style:normal;}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;font-family:"Be Vietnam Pro",sans-serif;color:#2F343B;}
+.f4-bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--color_bg, #F5F2EC) 0%,var(--color_bg2, #E9E4DA) 100%);}
+.f4-a{position:absolute;}
+.f4-card{position:absolute;background:#FFFFFF;border-radius:22px;box-shadow:0 8px 30px rgba(47,52,59,0.07);}
+.f4-badge{position:absolute;left:120px;top:84px;display:flex;align-items:center;gap:22px;}
+.f4-badge-pill{color:#fff;font-weight:800;font-size:24px;letter-spacing:.08em;padding:12px 26px;border-radius:100px;}
+.f4-badge-title{font-weight:800;font-size:46px;letter-spacing:-.01em;color:#2F343B;white-space:nowrap;}
+.f4-stamp{position:absolute;border:6px solid currentColor;border-radius:14px;padding:6px 22px;font-weight:900;font-size:40px;letter-spacing:.06em;white-space:nowrap;background:rgba(255,255,255,0.55);}
+.f4-chip{position:absolute;display:flex;align-items:center;gap:16px;background:#fff;border:2px solid rgba(47,52,59,0.10);border-radius:100px;padding:10px 30px 10px 12px;font-weight:600;font-size:30px;white-space:nowrap;box-shadow:0 6px 20px rgba(47,52,59,0.06);}
+.f4-chip-ic{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.f4-prog{position:absolute;left:0;right:0;top:982px;height:64px;}
+.f4-prog-track{position:absolute;left:400px;width:1120px;top:31px;height:3px;background:rgba(47,52,59,0.14);border-radius:2px;}
+.f4-pn{position:absolute;top:0;height:64px;display:flex;align-items:center;gap:12px;padding:0 22px 0 10px;background:#fff;border-radius:100px;border:2px solid rgba(47,52,59,0.10);box-shadow:0 4px 14px rgba(47,52,59,0.05);}
+.f4-pd{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;color:#7E8188;border:2px solid #A9ACB1;background:#fff;}
+.f4-pl{font-weight:600;font-size:23px;color:#6E727A;white-space:nowrap;}
+
+
+.f4-dc{top:230px;width:440px;height:470px;}
+.f4-dt{left:0;right:0;bottom:40px;text-align:center;font-weight:700;font-size:34px;color:#2F343B;}
+.f4-ln{position:absolute;left:70px;height:14px;border-radius:7px;background:#E9E4DA;}
+.f4-lnf{position:absolute;left:70px;height:14px;border-radius:7px;background:var(--color_s1, #B4544D);opacity:.55;}
+.f4-bar{position:absolute;bottom:150px;width:56px;border-radius:10px 10px 4px 4px;}
+.f4-bl{position:absolute;bottom:112px;width:92px;text-align:center;font-weight:600;font-size:18px;color:#6E727A;}
+.f4-bx{width:100px;height:150px;border-radius:12px;background:#E9E4DA;color:#6E727A;display:flex;align-items:flex-end;justify-content:center;padding-bottom:14px;font-weight:800;font-size:30px;}
+.f4-kit{left:0;right:0;top:700px;text-align:center;}
+.f4-kt{font-weight:900;font-size:64px;letter-spacing:.04em;color:#2F343B;}
+.f4-ks{font-weight:600;font-size:38px;color:#6E727A;margin-top:6px;}
+
+  </style>
+  <div data-hf-id="hf-4b2q47" id="root" data-composition-id="04b-cap-phat" data-width="1920" data-height="1080" data-duration="26.4">
+    <div data-hf-id="hf-4b2qad" id="f4-bg" class="clip f4-bg" data-start="0" data-duration="26.4" data-track-index="0"></div>
+
+    <div data-hf-id="hf-4biwo2" class="f4-badge" id="f4-badge"><div data-hf-id="hf-4b11b0" class="f4-badge-pill" style="background:var(--color_s1, #B4544D)" data-var-text="s3_badge">BƯỚC 1</div><div data-hf-id="hf-4bs9ka" class="f4-badge-title">Cấp phát &amp; thanh toán</div></div>
+    <div data-hf-id="hf-byfr" class="f4-card" id="f4b-k1" style="left:120px;top:220px;width:520px;height:600px;border-top:10px solid #B4544D">
+      <svg data-hf-id="hf-gsjp" class="f4-a" style="left:150px;top:50px" width="220" height="160" viewBox="0 0 220 160"><rect data-hf-id="hf-7caj" x="10" y="20" width="200" height="130" rx="14" fill="#FAF8F4" stroke="#B4544D" stroke-width="5"/><path data-hf-id="hf-orf9" d="M14,26 L110,96 L206,26" fill="none" stroke="#B4544D" stroke-width="5" stroke-linejoin="round"/><circle data-hf-id="hf-ayok" cx="190" cy="26" r="20" fill="#DA251D"/><text data-hf-id="hf-mr40" x="190" y="33" text-anchor="middle" font-family="Be Vietnam Pro" font-weight="900" font-size="20" fill="#fff">1</text></svg>
+      <div data-hf-id="hf-v7o2" class="f4-a" style="left:40px;right:40px;top:240px;text-align:center;font-weight:800;font-size:36px;line-height:1.25">Thông báo cấp phát gian hàng</div>
+      <div data-hf-id="hf-20lf" class="f4-a" id="f4b-c1" style="left:0;right:0;top:400px;display:flex;justify-content:center"><div data-hf-id="hf-m2rk" class="f4-chip" style="position:relative"><div data-hf-id="hf-1q62" class="f4-chip-ic" style="background:#B4544D;color:#fff;font-weight:900">7</div>~1 tuần để xác nhận</div></div>
+      <div data-hf-id="hf-llg3" class="f4-a" id="f4b-c1b" style="left:30px;right:30px;top:500px;text-align:center;font-weight:600;font-size:26px;color:#6E727A">Không phản hồi = xem như đồng ý</div>
+    </div>
+    <div data-hf-id="hf-e08r" class="f4-card" id="f4b-k2" style="left:700px;top:220px;width:520px;height:600px;border-top:10px solid #C49A4E">
+      <svg data-hf-id="hf-vkrp" class="f4-a" style="left:60px;top:50px" width="400" height="170" viewBox="0 0 400 170"><rect data-hf-id="hf-llnl" x="10" y="10" width="120" height="150" rx="10" fill="#FAF8F4" stroke="#C49A4E" stroke-width="4"/><rect data-hf-id="hf-2qx0" x="30" y="36" width="80" height="10" rx="5" fill="#C49A4E"/><rect data-hf-id="hf-idxw" x="30" y="62" width="60" height="8" rx="4" fill="#E2DACB"/><rect data-hf-id="hf-li81" x="30" y="82" width="70" height="8" rx="4" fill="#E2DACB"/><rect data-hf-id="hf-j0v5" x="30" y="122" width="80" height="14" rx="7" fill="#2F343B" opacity=".7"/>
+        <path data-hf-id="hf-a1yx" id="f4b-arr" d="M150,85 L280,85" stroke="#C49A4E" stroke-width="8" stroke-linecap="round" stroke-dasharray="140" stroke-dashoffset="140"/><path data-hf-id="hf-qc65" id="f4b-arrh" d="M262,68 L284,85 L262,102" fill="none" stroke="#C49A4E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle data-hf-id="hf-89ru" cx="340" cy="85" r="50" fill="#4F74A8"/><text data-hf-id="hf-yk3f" x="340" y="80" text-anchor="middle" font-family="Be Vietnam Pro" font-weight="900" font-size="15" fill="#fff">KOELN</text><text data-hf-id="hf-ncid" x="340" y="99" text-anchor="middle" font-family="Be Vietnam Pro" font-weight="900" font-size="15" fill="#fff">MESSE</text></svg>
+      <div data-hf-id="hf-6n9g" class="f4-a" style="left:30px;right:30px;top:240px;text-align:center;font-weight:800;font-size:34px;line-height:1.25">Chuyển khoản quốc tế trực tiếp cho Koelnmesse</div>
+      <div data-hf-id="hf-40jt" class="f4-stamp" id="f4b-st" style="left:150px;top:395px;color:#5F8F6C;font-size:34px">ĐÚNG HẠN</div>
+      <div data-hf-id="hf-suni" class="f4-a" id="f4b-w" style="left:30px;right:30px;top:500px;text-align:center;font-weight:700;font-size:25px;color:#B4544D">! Trễ hạn: có thể không được bàn giao gian hàng</div>
+    </div>
+    <div data-hf-id="hf-92so" class="f4-card" id="f4b-k3" style="left:1280px;top:220px;width:520px;height:600px;border-top:10px solid #4F74A8">
+      <svg data-hf-id="hf-v7gd" class="f4-a" style="left:120px;top:40px" width="280" height="180" viewBox="0 0 280 180"><rect data-hf-id="hf-4o2q" x="10" y="10" width="260" height="160" rx="14" fill="#2F343B"/><rect data-hf-id="hf-7z33" x="22" y="22" width="236" height="136" rx="8" fill="#F3F6FA"/><text data-hf-id="hf-0ix6" x="140" y="62" text-anchor="middle" font-family="Be Vietnam Pro" font-weight="900" font-size="26" fill="#4F74A8">OEP</text><rect data-hf-id="hf-3j9v" x="60" y="80" width="160" height="20" rx="6" fill="#fff" stroke="#C9CBCF" stroke-width="2"/><rect data-hf-id="hf-f9xs" x="60" y="108" width="160" height="20" rx="6" fill="#fff" stroke="#C9CBCF" stroke-width="2"/><rect data-hf-id="hf-vgxo" x="100" y="136" width="80" height="16" rx="8" fill="#4F74A8"/></svg>
+      <div data-hf-id="hf-8pw5" class="f4-a" style="left:30px;right:30px;top:240px;text-align:center;font-weight:800;font-size:36px;line-height:1.25">Tài khoản cổng OEP</div>
+      <div data-hf-id="hf-qep5" class="f4-a" id="f4b-c3" style="left:0;right:0;top:350px;display:flex;justify-content:center"><div data-hf-id="hf-0ptr" class="f4-chip" style="position:relative"><div data-hf-id="hf-okyn" class="f4-chip-ic" style="background:#4F74A8;color:#fff;font-weight:900">3</div>Mở trước ~3 tháng</div></div>
+      <div data-hf-id="hf-4lhl" class="f4-a" id="f4b-c3b" style="left:30px;right:30px;top:450px;text-align:center;font-weight:600;font-size:27px;color:#6E727A;line-height:1.45">Thuê thêm thiết bị<br data-hf-id="hf-x5px">Thông tin vận chuyển chính thức</div>
+    </div>
+    <div data-hf-id="hf-4bybi8" class="f4-prog" id="f4-prog"><div data-hf-id="hf-4b7445" class="f4-prog-track"></div><div data-hf-id="hf-4b1v0t" class="f4-pn" id="f4-pn1" style="left:300px;border-color:var(--color_s1, #B4544D);"><div data-hf-id="hf-4buxal" class="f4-pd" style="background:var(--color_s1, #B4544D);border-color:var(--color_s1, #B4544D);color:#fff;">1</div><div data-hf-id="hf-4bpr8y" class="f4-pl" style="color:var(--color_s1, #B4544D);font-weight:800;" data-var-text="stage1">Chuẩn bị</div></div><div data-hf-id="hf-4bzdx6" class="f4-pn" id="f4-pn2" style="left:620px;"><div data-hf-id="hf-4b49yd" class="f4-pd" style="">2</div><div data-hf-id="hf-4b5hgq" class="f4-pl" style="" data-var-text="stage2">Gửi hàng</div></div><div data-hf-id="hf-4bl4fk" class="f4-pn" id="f4-pn3" style="left:940px;"><div data-hf-id="hf-4b8q8i" class="f4-pd" style="">3</div><div data-hf-id="hf-4b9nkq" class="f4-pl" style="" data-var-text="stage3">Tại Bangkok</div></div><div data-hf-id="hf-4bgoy2" class="f4-pn" id="f4-pn4" style="left:1300px;"><div data-hf-id="hf-4baprn" class="f4-pd" style="">4</div><div data-hf-id="hf-4bg4fv" class="f4-pl" style="" data-var-text="stage4">Kết thúc</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const q = (s) => document.querySelector('[data-composition-id="04b-cap-phat"] ' + s);
+      const qa = (s) => document.querySelectorAll('[data-composition-id="04b-cap-phat"] ' + s);
+      const wipe = (s, t, d) => tl.fromTo(q(s), { clipPath: "inset(-10% 100% -10% 0%)", opacity: 1 }, { clipPath: "inset(-10% 0% -10% 0%)", opacity: 1, duration: d || 0.7, ease: "power2.out" }, t);
+      const pop = (s, t, from) => tl.fromTo(q(s), Object.assign({ scale: 0.6, opacity: 0, transformOrigin: "50% 50%" }, from || {}), { scale: 1, opacity: 1, y: 0, x: 0, rotation: 0, duration: 0.5, ease: "back.out(1.8)" }, t);
+      const rise = (s, t, d) => tl.fromTo(q(s), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const stamp = (s, t, rot) => { tl.fromTo(q(s), { scale: 2.4, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: rot, duration: 0.24, ease: "power4.in" }, t); tl.fromTo(q(s), { x: -5 }, { x: 0, duration: 0.25, ease: "elastic.out(1,0.3)" }, t + 0.24); };
+      const build = (bid, t) => {
+        tl.fromTo(q("#" + bid + " ." + bid + "-floor"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, t);
+        tl.fromTo(q("#" + bid + " ." + bid + "-walls"), { opacity: 0, scaleY: 0, transformOrigin: "50% 100%" }, { opacity: 1, scaleY: 1, duration: 0.5, ease: "back.out(1.4)" }, t + 0.15);
+        ["shelf", "flag", "counter", "sign"].forEach((k, i) => { const el = q("#" + bid + " ." + bid + "-" + k); if (el) tl.fromTo(el, { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(2)" }, t + 0.45 + i * 0.12); });
+      };
+
+      tl.fromTo(q("#f4-badge"), { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power3.out" }, 0.05);
+      rise("#f4b-k1",0.3,0.55);
+      pop("#f4b-c1",4.9,{y:20});
+      rise("#f4b-c1b",7.0,0.5);
+      rise("#f4b-k2",9.0,0.55);
+      tl.fromTo(q("#f4b-arr"),{strokeDashoffset:140},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},9.6);
+      tl.fromTo(q("#f4b-arrh"),{opacity:0},{opacity:1,duration:0.2},10.1);
+      stamp("#f4b-st",12.6,-6);
+      rise("#f4b-w",14.6,0.5);
+      rise("#f4b-k3",17.0,0.55);
+      pop("#f4b-c3",19.9,{y:20});
+      rise("#f4b-c3b",22.0,0.5);
+      const __K=[[0,0],[26.4,26.4]]; const __o=gsap.timeline({paused:true});
+      for(let i=0;i<__K.length-1;i++) __o.fromTo(tl,{time:__K[i][0]},{time:__K[i+1][0],duration:__K[i+1][1]-__K[i][1],ease:"none",immediateRender:false},__K[i][1]);
+      window.__timelines["04b-cap-phat"] = __o;
+    })();
+  </script>
+</template>

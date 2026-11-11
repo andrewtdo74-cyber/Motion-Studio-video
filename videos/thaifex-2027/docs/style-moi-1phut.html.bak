@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face{font-family:"Noto Serif";src:url("assets/fonts/NotoSerif.ttf") format("truetype");font-weight:100 900;}
+      @font-face{font-family:"Source Sans 3";src:url("assets/fonts/SourceSans3.ttf") format("truetype");font-weight:200 900;}
+      :root{--bg:#FAFAF8;--ink:#2B2D31;--mute:#6B6E75;--line:#DCDAD5;--soft:#ECEDEE;--red:#9B2335;}
+      *{margin:0;padding:0;box-sizing:border-box}
+      html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+      #root{position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--bg);font-family:"Source Sans 3",sans-serif;color:var(--ink)}
+      .scene{position:absolute;inset:0;background:var(--bg)}
+      .a{position:absolute}
+      .hd{position:absolute;left:90px;right:90px;top:60px;height:110px;border-bottom:2px solid var(--line);display:flex;align-items:center}
+      .step{color:var(--red);font-weight:600;font-size:26px;width:150px}
+      .ttl{font:500 54px "Noto Serif",serif}
+      .brand{margin-left:auto;font-size:26px}
+      .ft{position:absolute;left:90px;right:90px;top:950px;border-top:2px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding-top:30px;font-size:27px;color:var(--mute)}
+      .ft b{font-weight:400;margin-right:14px}.ft .on{color:var(--red);font-weight:700}
+      .h2{font:500 58px/1.35 "Noto Serif",serif}
+      .h3{font:500 44px/1.3 "Noto Serif",serif}
+      .body{font-size:38px;line-height:1.5}
+      .sub{font-size:31px;color:var(--mute)}
+      .rule{width:66px;height:5px;background:var(--red)}
+      .vline{position:absolute;width:2px;background:var(--line)}
+      .it{display:flex;gap:46px;align-items:baseline;border-bottom:2px solid var(--line);padding:22px 0}
+      .n{color:var(--red);font-size:27px;width:30px;flex:none}
+      .t{font-size:38px}
+      .box{width:126px;height:126px;display:flex;align-items:center;justify-content:center;font-size:40px;color:var(--mute);background:var(--soft)}
+      .num{font:500 120px "Noto Serif",serif;color:var(--red);line-height:1}
+      .col{border-left:2px solid var(--line);padding:0 40px}
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="66.5" data-width="1920" data-height="1080">
+
+      <!-- S1 mở đầu -->
+      <div id="s1" class="clip scene" data-start="0" data-duration="9.0" data-track-index="0">
+        <div class="a" style="left:90px;top:60px;right:90px;display:flex;justify-content:space-between;font-size:26px"><span style="color:var(--red);font-weight:600">VIDEO HƯỚNG DẪN</span><span>THAIFEX 2027</span></div>
+        <div id="s1-sub" class="a sub" style="left:90px;top:300px">Quý vị đang quan tâm trưng bày tại</div>
+        <div id="s1-t" class="a" style="left:90px;top:360px;font:500 150px 'Noto Serif',serif">THAIFEX 2027?</div>
+        <div id="s1-r" class="a rule" style="left:96px;top:600px"></div>
+        <div id="s1-d" class="a body" style="left:90px;top:640px">IMPACT, Bangkok · 25–29/05/2027</div>
+        <div id="s1-n" class="a sub" style="left:90px;top:860px">Một số điểm quan trọng quý vị cần lưu ý</div>
+      </div>
+
+      <!-- S2 hành trình -->
+      <div id="s2" class="clip scene" data-start="9.0" data-duration="7.6" data-track-index="1">
+        <div class="hd"><span class="ttl">Hành trình 4 bước</span><span class="brand">THAIFEX 2027</span></div>
+        <div id="s2-sub" class="a sub" style="left:90px;top:250px">Từ lúc đăng ký đến khi tháo dỡ gian hàng</div>
+        <div class="a" style="left:90px;right:90px;top:380px;display:grid;grid-template-columns:repeat(4,1fr)">
+          <div class="col s2c"><div class="num">01</div><div class="h3" style="margin-top:30px">Chuẩn bị</div><div class="sub" style="margin-top:14px">Gian hàng, hồ sơ, thanh toán</div></div>
+          <div class="col s2c"><div class="num">02</div><div class="h3" style="margin-top:30px">Gửi hàng</div><div class="sub" style="margin-top:14px">Hàng mẫu, hải quan</div></div>
+          <div class="col s2c"><div class="num">03</div><div class="h3" style="margin-top:30px">Tại Bangkok</div><div class="sub" style="margin-top:14px">Đi lại, khách mua</div></div>
+          <div class="col s2c"><div class="num">04</div><div class="h3" style="margin-top:30px">Kết thúc</div><div class="sub" style="margin-top:14px">Hoàn trả gian hàng</div></div>
+        </div>
+        <div class="ft"><span><b>01</b>Chuẩn bị</span><span><b>02</b>Gửi hàng</span><span><b>03</b>Tại Bangkok</span><span><b>04</b>Kết thúc</span></div>
+      </div>
+
+      <!-- S3a bộ tài liệu -->
+      <div id="s3a" class="clip scene" data-start="16.6" data-duration="7.2" data-track-index="0">
+        <div class="hd"><span class="step">BƯỚC 01</span><span class="ttl">Đăng ký &amp; ngân sách</span><span class="brand">THAIFEX 2027</span></div>
+        <div id="s3a-t" class="a h2" style="left:90px;top:240px">Bộ tài liệu<br>dành cho công ty trưng bày</div>
+        <div class="a" style="left:90px;right:90px;top:560px;display:grid;grid-template-columns:repeat(3,1fr);gap:60px">
+          <div class="s3ad" style="border-top:5px solid var(--red);padding-top:26px"><div class="sub">01</div><div class="h3" style="margin-top:10px">Hồ sơ đăng ký</div></div>
+          <div class="s3ad" style="border-top:2px solid var(--line);padding-top:29px"><div class="sub">02</div><div class="h3" style="margin-top:10px">Bảng tính ngân sách</div></div>
+          <div class="s3ad" style="border-top:2px solid var(--line);padding-top:29px"><div class="sub">03</div><div class="h3" style="margin-top:10px">Hướng dẫn thanh toán</div></div>
+        </div>
+        <div class="ft"><span class="on"><b>01</b>Chuẩn bị</span><span><b>02</b>Gửi hàng</span><span><b>03</b>Tại Bangkok</span><span><b>04</b>Kết thúc</span></div>
+      </div>
+
+      <!-- S3b hồ sơ + thứ tự -->
+      <div id="s3b" class="clip scene" data-start="23.8" data-duration="10.8" data-track-index="1">
+        <div class="hd"><span class="step">BƯỚC 01</span><span class="ttl">Đăng ký &amp; ngân sách</span><span class="brand">THAIFEX 2027</span></div>
+        <div class="a" style="left:90px;top:240px;width:740px"><div class="h2">Hồ sơ đăng ký</div>
+          <div style="margin-top:30px"><div class="it s3bi"><span class="n">01</span><span class="t">Nội dung bằng tiếng Anh</span></div><div class="it s3bi"><span class="n">02</span><span class="t">Chữ ký Giám đốc</span></div><div class="it s3bi"><span class="n">03</span><span class="t">Mộc dấu công ty</span></div></div></div>
+        <div id="s3b-v" class="vline" style="left:925px;top:240px;height:590px"></div>
+        <div id="s3b-r" class="a" style="left:1010px;top:240px"><div class="h2">Thứ tự cấp phát</div><div class="body" style="margin-top:50px">Cấp gian hàng theo<br>thứ tự đăng ký</div>
+          <div style="display:flex;gap:34px;margin-top:90px"><div class="box s3bx">1</div><div class="box s3bx">2</div><div class="box s3bx">3</div><div class="box s3bx">4</div><div class="box s3bx">5</div></div></div>
+        <div class="ft"><span class="on"><b>01</b>Chuẩn bị</span><span><b>02</b>Gửi hàng</span><span><b>03</b>Tại Bangkok</span><span><b>04</b>Kết thúc</span></div>
+      </div>
+
+      <!-- S4a nhận = trả -->
+      <div id="s4a" class="clip scene" data-start="34.6" data-duration="11.6" data-track-index="0">
+        <div class="hd"><span class="step">BƯỚC 04</span><span class="ttl">Khi hội chợ kết thúc</span><span class="brand">THAIFEX 2027</span></div>
+        <div id="s4a-t" class="a h2" style="left:90px;top:220px">Nhận thế nào, trả đúng như thế</div>
+        <div id="s4a-b1" class="a booth" style="left:160px;top:345px"></div>
+        <div id="s4a-eq" class="a" style="left:925px;top:520px;font-size:60px;color:var(--mute)">=</div>
+        <div id="s4a-b2" class="a booth" style="left:1110px;top:345px"></div>
+        <div id="s4a-l1" class="a" style="left:160px;width:650px;top:808px;text-align:center;font-size:27px;font-weight:600;color:var(--mute)">LÚC NHẬN</div>
+        <div id="s4a-l2" class="a" style="left:1110px;width:650px;top:808px;text-align:center;font-size:27px;font-weight:600;color:var(--red)">LÚC TRẢ</div>
+        <div id="s4a-p" class="a" style="left:300px;top:880px;font-size:33px">Poster, hình dán: để lại cho Ban tổ chức dọn dẹp</div>
+        <div class="ft"><span><b>01</b>Chuẩn bị</span><span><b>02</b>Gửi hàng</span><span><b>03</b>Tại Bangkok</span><span class="on"><b>04</b>Kết thúc</span></div>
+      </div>
+
+      <!-- S4b checklist -->
+      <div id="s4b" class="clip scene" data-start="46.2" data-duration="10.6" data-track-index="1">
+        <div class="hd"><span class="step">BƯỚC 04</span><span class="ttl">Khi hội chợ kết thúc</span><span class="brand">THAIFEX 2027</span></div>
+        <div id="s4b-t" class="a h2" style="left:90px;top:240px">Trước khi rời hội chợ</div>
+        <div class="a" style="left:90px;top:400px;width:1200px"><div class="it s4bi"><span class="n">01</span><span class="t">Không tháo gian hàng trước 18:00 ngày cuối</span></div><div class="it s4bi"><span class="n">02</span><span class="t">Thanh toán các hóa đơn còn lại</span></div><div class="it s4bi"><span class="n">03</span><span class="t">Đăng ký sớm kỳ sau để được giá ưu đãi</span></div></div>
+        <div class="ft"><span><b>01</b>Chuẩn bị</span><span><b>02</b>Gửi hàng</span><span><b>03</b>Tại Bangkok</span><span class="on"><b>04</b>Kết thúc</span></div>
+      </div>
+
+      <!-- S5 kêu gọi -->
+      <div id="s5" class="clip scene" data-start="56.8" data-duration="9.7" data-track-index="0">
+        <div class="a" style="left:90px;top:60px;right:90px;display:flex;justify-content:space-between;font-size:26px"><span style="color:var(--red);font-weight:600">BỘ TÀI LIỆU</span><span>THAIFEX 2027</span></div>
+        <div id="s5-t" class="a h2" style="left:90px;top:280px;font-size:76px">Nhận trọn bộ<br>tài liệu chi tiết</div>
+        <div id="s5-r" class="a rule" style="left:96px;top:530px"></div>
+        <div id="s5-s" class="a body" style="left:90px;top:580px">Quét mã để điền form<br><span class="sub">và nhận ngay bộ tài liệu</span></div>
+        <div id="s5-e" class="a sub" style="left:90px;top:860px">Hẹn gặp quý vị tại THAIFEX 2027, Bangkok</div>
+        <img id="s5-q" class="a" src="assets/qr/form-dang-ky.png" alt="" style="left:1290px;top:280px;width:460px;height:460px;border:2px solid var(--line);padding:20px;background:#fff">
+      </div>
+
+      <audio id="v1" src="assets/voice/vo-01.mp3" data-start="0.3" data-duration="8.424" data-track-index="10" data-volume="1"></audio>
+      <audio id="v2" src="assets/voice/vo-02.mp3" data-start="9.2" data-duration="7.08" data-track-index="10" data-volume="1"></audio>
+      <audio id="v4" src="assets/voice/vo-04.mp3" data-start="16.8" data-duration="17.28" data-track-index="10" data-volume="1"></audio>
+      <audio id="v8" src="assets/voice/vo-08.mp3" data-start="34.8" data-duration="21.408" data-track-index="10" data-volume="1"></audio>
+      <audio id="v9" src="assets/voice/vo-09.mp3" data-start="57.0" data-duration="8.904" data-track-index="10" data-volume="1"></audio>
+      <audio id="bgm" src="assets/music-long.wav" data-start="0" data-duration="66.5" data-track-index="11" data-volume="0.12"></audio>
+    </div>
+
+    <script>
+      const booth='<svg width="650" height="450" viewBox="0 0 650 450"><rect x="0" y="0" width="650" height="12" fill="#C9CBCF"/><rect x="0" y="0" width="14" height="410" fill="#C9CBCF"/><rect x="636" y="0" width="14" height="410" fill="#C9CBCF"/><rect x="14" y="12" width="622" height="398" fill="#fff"/><rect x="42" y="14" width="566" height="70" fill="#fff" stroke="#E3E1DC" stroke-width="3"/><rect x="42" y="14" width="566" height="7" fill="#C49A4E"/><text x="70" y="62" font-family="Source Sans 3" font-weight="700" font-size="30" fill="#2B2D31">COMPANY NAME</text><text x="580" y="62" text-anchor="end" font-family="Source Sans 3" font-weight="700" font-size="20" fill="#2B2D31">NO.00</text><line x1="218" y1="84" x2="218" y2="405" stroke="#E3E1DC" stroke-width="3"/><line x1="430" y1="84" x2="430" y2="405" stroke="#E3E1DC" stroke-width="3"/><rect x="366" y="178" width="206" height="12" rx="6" fill="#E2DACB"/><rect x="366" y="258" width="206" height="12" rx="6" fill="#E2DACB"/><rect x="90" y="288" width="112" height="102" rx="6" fill="#F7F6F3" stroke="#D7D3CB" stroke-width="3"/><circle cx="182" cy="340" r="5" fill="#9EA2A8"/><ellipse cx="324" cy="330" rx="56" ry="13" fill="#fff" stroke="#BDB9B1" stroke-width="3"/><rect x="320" y="332" width="8" height="56" fill="#BDB9B1"/><ellipse cx="324" cy="392" rx="26" ry="6" fill="#BDB9B1"/><rect x="0" y="405" width="650" height="45" fill="#B9B5AD"/></svg>';
+      document.querySelectorAll('.booth').forEach(b => b.innerHTML = booth);
+
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      const up = (s, t, d) => tl.fromTo(s, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: d || 0.6, ease: "power3.out" }, t);
+      const wipe = (s, t, d) => tl.fromTo(s, { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: d || 0.8, ease: "power2.inOut" }, t);
+      const fadeIn = (s, t) => tl.fromTo(s, { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, t);
+      const fadeOut = (s, t) => tl.to(s, { opacity: 0, duration: 0.5, ease: "power2.inOut" }, t);
+
+      // S1
+      up("#s1-sub", 0.4); up("#s1-t", 0.9, 0.8); wipe("#s1-r", 1.8, 0.5); up("#s1-d", 2.2); up("#s1-n", 4.8);
+      // S2
+      fadeOut("#s1", 9.0); fadeIn("#s2", 9.0);
+      up("#s2-sub", 9.4); tl.fromTo(".s2c", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, stagger: 0.35, ease: "power3.out" }, 10.6);
+      // S3a (vo-04 câu 1)
+      fadeOut("#s2", 16.6); fadeIn("#s3a", 16.6);
+      up("#s3a-t", 17.0); tl.fromTo(".s3ad", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.9, ease: "power3.out" }, 17.9);
+      // S3b (câu 2 ở 23.76, câu 3 ở 28.55)
+      fadeOut("#s3a", 23.8); fadeIn("#s3b", 23.8);
+      tl.fromTo(".s3bi", { x: -30, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, stagger: 1.4, ease: "power3.out" }, 24.4);
+      tl.fromTo(["#s3b-v", "#s3b-r"], { opacity: 0 }, { opacity: 1, duration: 0.6 }, 28.5);
+      tl.to(".s3bx", { backgroundColor: "#9B2335", color: "#FFFFFF", duration: 0.25, stagger: 0.5, ease: "none" }, 30.6);
+      tl.to(".s3bx:not(:first-child)", { backgroundColor: "#ECEDEE", color: "#6B6E75", duration: 0.4 }, 33.2);
+      // S4a (vo-08: câu 2 ở 37.7, câu 3 ở 41.7)
+      fadeOut("#s3b", 34.6); fadeIn("#s4a", 34.6);
+      up("#s4a-t", 37.6); up("#s4a-b1", 38.4); up("#s4a-l1", 38.6); tl.fromTo("#s4a-eq", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 39.4); up("#s4a-b2", 39.8); up("#s4a-l2", 40.0); up("#s4a-p", 41.8);
+      // S4b (câu 4 ở 46.2, câu 5 ở 49.9)
+      fadeOut("#s4a", 46.2); fadeIn("#s4b", 46.2);
+      up("#s4b-t", 46.4);
+      [46.9, 50.2, 52.6].forEach((t, i) => tl.fromTo(`.s4bi:nth-child(${i + 1})`, { x: -30, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, t));
+      // S5
+      fadeOut("#s4b", 56.8); fadeIn("#s5", 56.8);
+      up("#s5-t", 57.2, 0.8); wipe("#s5-r", 58.0, 0.5); up("#s5-s", 58.4); tl.fromTo("#s5-q", { scale: 0.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.7, ease: "back.out(1.6)" }, 58.6); up("#s5-e", 62.0);
+      tl.to({}, { duration: 66.5 }, 0);
+    </script>
+  </body>
+</html>

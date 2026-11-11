@@ -5,7 +5,10 @@ k=re.search(r'ELEVENLABS_API_KEY=(\S+)',open(os.path.join(PROJ,'..','..','.env')
 md=open(os.path.join(PROJ,'docs','LOI-DOC-ANNA-THU.md'),encoding='utf8').read()
 segs=re.findall(r'### (vo-[\w-]+)\.mp3\n```\n(.*?)\n```',md,re.S)
 model=sys.argv[1]; out=os.path.join(PROJ,"assets","voice-huyentrang")
-os.makedirs(out,exist_ok=True); meta={}
+only=set(sys.argv[2:])  # optional: only regenerate these names, keep the rest
+if only: segs=[x for x in segs if x[0] in only]
+os.makedirs(out,exist_ok=True); ap=f"{out}/alignment.json"
+meta=json.load(open(ap,encoding="utf8")) if only and os.path.exists(ap) else {}
 for name,t in segs:
   body=json.dumps({"text":t,"model_id":model}).encode()
   r=json.load(urllib.request.urlopen(urllib.request.Request("https://api.elevenlabs.io/v1/text-to-speech/BlZK9tHPU6XXjwOSIiYA/with-timestamps?output_format=mp3_44100_128",data=body,headers={"xi-api-key":k,"Content-Type":"application/json"})))

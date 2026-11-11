@@ -50,27 +50,32 @@ Lựa chọn này quyết định ai dàn dựng, và ai tháo dỡ khi hội ch
 
 ### vo-04.mp3
 ```
-Hồ sơ đăng ký, bảng tính ngân sách và hướng dẫn thanh toán, đều có sẵn trong bộ tài liệu dành cho công ty trưng bày.
+Hồ sơ đăng ký, bảng tính ngân sách và hướng dẫn thanh toán, đều có sẵn trong bộ tài liệu dành cho công ty trưng bày. Hồ sơ điền bằng tiếng Anh, có chữ ký Giám đốc và mộc dấu công ty. Gian hàng được cấp theo thứ tự đăng ký, vì vậy quý vị nên đăng ký càng sớm càng tốt.
+```
+
+### vo-04b.mp3
+```
+Sau khi nhận hồ sơ, Ban tổ chức sẽ gửi thông báo cấp phát gian hàng. Quý vị có khoảng một tuần để xác nhận, nếu không phản hồi, xem như đã đồng ý. Tiền thuê gian hàng được chuyển khoản quốc tế trực tiếp cho Koelnmesse, đúng hạn ghi trên hóa đơn, nếu trễ hạn có thể không được bàn giao gian hàng. Sau khi thanh toán, quý vị sẽ nhận tài khoản cổng O E P, mở trước hội chợ khoảng ba tháng, để thuê thêm thiết bị và xem thông tin vận chuyển chính thức.
 ```
 
 ### vo-05.mp3
 ```
-Bước hai, gửi hàng mẫu, và đây là chỗ dễ sai nhất. Hãy theo đúng hạn chót của công ty vận chuyển chính thức của hội chợ. Nếu dùng công ty vận chuyển khác, cần lưu ý hai điều. Một, thực phẩm và đồ uống đem đi trưng bày phải khai báo theo quy định hải quan Thái Lan. Hai, ngay cả khi gửi chuyển phát nhanh, vẫn phải xin giấy phép nhập khẩu trước hai tuần.
+Bước hai, gửi hàng mẫu, và đây là chỗ dễ sai nhất. Hãy theo đúng hạn chót của công ty vận chuyển chính thức của hội chợ. Nếu dùng công ty vận chuyển khác, cần lưu ý hai điều. Một, thực phẩm và đồ uống đem đi trưng bày phải khai báo theo quy định hải quan Thái Lan. Hai, ngay cả khi gửi chuyển phát nhanh, vẫn phải xin giấy phép nhập khẩu trước hai tuần. Và không nên tự xách tay hàng mẫu, vì hàng rất dễ bị hải quan giữ lại, phạt, hoặc tịch thu.
 ```
 
 ### vo-06.mp3
 ```
-Bước ba, đến Băng Cốc. Đặt vé máy bay, khách sạn và mua bảo hiểm công tác từ Việt Nam. Đi nhóm từ bốn người, nên thuê xe vanh, vì xe bảy chỗ không đủ chỗ cho cả người và hành lý. Tiền thuê gian hàng và dịch vụ được chuyển khoản ngân hàng từ Việt Nam. Còn khi thuê thêm thiết bị hay dịch vụ ngay tại hội chợ, nên chuẩn bị sẵn tiền mặt bạt Thái, vì trả bằng thẻ có thể phải chờ kiểm tra giao dịch.
+Bước ba, đến Băng Cốc. Đặt vé máy bay, khách sạn và mua bảo hiểm công tác từ Việt Nam. Công dân Việt Nam được miễn thị thực đến sáu mươi ngày, nhưng cần khai thẻ nhập cảnh điện tử T D A C trong vòng ba ngày trước khi đến. Đi nhóm từ bốn người, nên thuê xe vanh, vì xe bảy chỗ không đủ chỗ cho cả người và hành lý. Còn khi thuê thêm thiết bị hay dịch vụ ngay tại hội chợ, nên chuẩn bị sẵn tiền mặt bạt Thái, vì trả bằng thẻ có thể phải chờ kiểm tra giao dịch.
 ```
 
 ### vo-07.mp3
 ```
-Khách mua hàng đến hội chợ qua Ban tổ chức, qua chương trình của A F W, Công ty Phương Bắc, và từ chính các đối tác mà quý vị chủ động mời.
+Khách mua hàng đến hội chợ qua Ban tổ chức, qua chương trình của A F W, Công ty Phương Bắc, và từ chính các đối tác mà quý vị chủ động mời. Gói marketing bắt buộc của Ban tổ chức còn giúp quý vị đăng hình ảnh, video sản phẩm, đặt lịch hẹn với khách mua và tải danh sách khách tiềm năng.
 ```
 
 ### vo-08.mp3
 ```
-Bước cuối, khi hội chợ kết thúc. Nhận gian hàng như thế nào, hoàn trả lại đúng như thế. Riêng poster và hình dán có thể để lại cho Ban tổ chức dọn dẹp.
+Bước cuối, khi hội chợ kết thúc. Nhận gian hàng như thế nào, hoàn trả lại đúng như thế. Riêng poster và hình dán có thể để lại cho Ban tổ chức dọn dẹp. Lưu ý không tháo gian hàng trước sáu giờ chiều ngày cuối. Sau đó, hãy thanh toán các hóa đơn còn lại, và đăng ký sớm cho kỳ sau để được giá ưu đãi.
 ```
 
 ### vo-09.mp3
