@@ -84,3 +84,18 @@ Cần gói ElevenLabs trả phí (Starter trở lên) mới dùng được giọ
 | v7 | 10/11/2026 | Mã QR thật của form đăng ký ở cảnh cuối |
 
 Chi tiết từng lần sửa: xem `LOG-CHINH-SUA.xlsx`.
+
+## Việc đang dở (cập nhật 11/11/2026)
+
+**Kịch bản V4 (phương án B), đang chờ duyệt**, bổ sung nội dung từ `docs/Exhibitor-Checklist-Thaifex.docx`:
+- `docs/KICH-BAN-V4-DE-XUAT.md`: lời đọc mới kèm mô tả hình
+- `docs/KICH-BAN-CU-VA-MOI.md`: toàn bộ kịch bản bản cũ và bản mới để đọc liền mạch
+- `docs/storyboard-v4.html`: storyboard trực quan (mở bằng trình duyệt)
+
+Khi duyệt xong, các bước còn lại:
+1. Cập nhật `docs/LOI-DOC-ANNA-THU.md`, tạo giọng HuyenTrang cho vo-04, vo-04b (mới), vo-05, vo-06, vo-07, vo-08.
+2. Tạo cảnh mới `04b` (cấp phát, thanh toán, cổng OEP) và bổ sung hình cho cảnh 4–8; bỏ thẻ "Chuyển khoản ngân hàng từ Việt Nam" ở cảnh 6.
+3. Canh lại thời gian toàn video, kiểm tra, render.
+
+Còn phải chốt: giữ mốc "18:00 ngày cuối" hay đổi thành "giờ quy định"; có thêm ngày hội chợ 25–29/05/2027 vào cảnh mở đầu không.
+Trên máy mới cần tạo lại file `.env` (API key ElevenLabs) ở thư mục gốc Motion Studio.
