@@ -7,7 +7,7 @@ Nơi chứa các dự án video làm bằng [HyperFrames](https://hyperframes.he
 | Dự án | Thư mục | Trạng thái | Mô tả |
 |---|---|---|---|
 | THAIFEX 2027 | [videos/thaifex-2027](videos/thaifex-2027/README.md) | Bản v5 (2:53) | Video hướng dẫn công ty trưng bày tại THAIFEX, 9 cảnh, giọng ElevenLabs HuyenTrang |
-| fMA 3D Showroom | [videos/fma-3d-showroom](videos/fma-3d-showroom/README.md) | Kịch bản v1 | Video giới thiệu showroom 3D theo yêu cầu của furnitureMarket.Asia, 10 cảnh (~1:45) |
+| fMA 3D Showroom | [videos/fma-3d-showroom](videos/fma-3d-showroom/README.md) | Kịch bản v2 | Video giới thiệu showroom 3D theo yêu cầu của furnitureMarket.Asia, 10 cảnh (~1:50) |
 
 ## Cấu trúc chung
 
