@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Storyboard – fMA 3D Showroom</title>
+<style>
+@font-face{font-family:BVP;src:url(../assets/fonts/BeVietnamPro-Regular.ttf);font-weight:400}
+@font-face{font-family:BVP;src:url(../assets/fonts/BeVietnamPro-Medium.ttf);font-weight:500}
+@font-face{font-family:BVP;src:url(../assets/fonts/BeVietnamPro-SemiBold.ttf);font-weight:600}
+@font-face{font-family:BVP;src:url(../assets/fonts/BeVietnamPro-Bold.ttf);font-weight:700}
+:root{--bg:#F5F3EF;--paper:#FFFFFF;--ink:#23292F;--mute:#7A7F85;--line:#DCD7CF;--wood:#B8957A;--wood2:#E3D3C0;--slate:#4F6B7A;--sage:#B7C1B3;--sofa:#D8D2C8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:BVP,sans-serif;background:#ECEAE6;color:var(--ink)}
+.frame{width:1920px;height:1080px;position:relative;overflow:hidden;background:var(--bg)}
+.frame svg.art{position:absolute;inset:0;width:100%;height:100%}
+.tag{position:absolute;left:72px;top:56px;font-size:22px;font-weight:500;color:var(--mute);letter-spacing:.12em;text-transform:uppercase}
+.logo{position:absolute;right:72px;top:46px;font-size:40px;font-weight:700;letter-spacing:-.02em}
+.logo i{display:inline-block;width:10px;height:10px;background:var(--slate);border-radius:50%;margin-left:4px}
+.sub{position:absolute;left:50%;bottom:64px;transform:translateX(-50%);background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:10px;padding:16px 32px;font-size:30px;font-weight:400;max-width:1500px;text-align:center;line-height:1.35}
+.h{position:absolute;font-weight:600;letter-spacing:-.01em}
+.lbl{font-size:18px;font-weight:600;letter-spacing:.14em;fill:var(--mute);text-transform:uppercase}
+.t{font-family:BVP}
+/* sheet */
+.sheet{width:1240px;margin:0 auto;padding:40px 0}
+.sheet h1{font-size:30px;font-weight:600;margin-bottom:6px}
+.sheet .meta{color:var(--mute);font-size:15px;margin-bottom:28px}
+.card{display:grid;grid-template-columns:640px 1fr;gap:28px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:18px;break-inside:avoid}
+.card img{width:640px;border-radius:4px;border:1px solid var(--line)}
+.card h2{font-size:19px;font-weight:600;margin-bottom:8px}
+.card p{font-size:13px;line-height:1.5;margin-bottom:6px}
+.card b{font-weight:600}
+.card .vo{color:var(--slate)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+ <defs>
+  <g id="sofa"><rect x="0" y="40" width="300" height="70" rx="14" fill="var(--sofa)"/><rect x="0" y="0" width="300" height="60" rx="16" fill="#E6E1D8"/><rect x="-20" y="30" width="40" height="80" rx="12" fill="#CFC8BC"/><rect x="280" y="30" width="40" height="80" rx="12" fill="#CFC8BC"/><rect x="20" y="108" width="10" height="22" fill="var(--wood)"/><rect x="270" y="108" width="10" height="22" fill="var(--wood)"/></g>
+  <g id="table"><rect x="0" y="0" width="180" height="16" rx="4" fill="var(--wood)"/><rect x="18" y="16" width="10" height="44" fill="#9C7B62"/><rect x="152" y="16" width="10" height="44" fill="#9C7B62"/></g>
+  <g id="lamp"><path d="M10 0 L70 0 L60 50 L20 50 Z" fill="#EFE8DC" stroke="var(--line)"/><rect x="37" y="50" width="6" height="170" fill="var(--ink)"/><rect x="15" y="218" width="50" height="8" rx="4" fill="var(--ink)"/></g>
+  <g id="plant"><rect x="20" y="90" width="60" height="70" rx="8" fill="#E9E4DC" stroke="var(--line)"/><ellipse cx="50" cy="60" rx="22" ry="44" fill="var(--sage)"/><ellipse cx="28" cy="70" rx="16" ry="34" fill="#A2AE9E" transform="rotate(-25 28 70)"/><ellipse cx="72" cy="70" rx="16" ry="34" fill="#A2AE9E" transform="rotate(25 72 70)"/></g>
+  <g id="chair"><rect x="0" y="40" width="120" height="60" rx="12" fill="var(--wood2)"/><rect x="10" y="0" width="100" height="56" rx="14" fill="#EADFD1"/><rect x="12" y="98" width="8" height="24" fill="var(--wood)"/><rect x="100" y="98" width="8" height="24" fill="var(--wood)"/></g>
+  <g id="room"><rect x="0" y="0" width="900" height="560" fill="#FBFAF7" stroke="var(--line)" stroke-width="2"/><rect x="0" y="420" width="900" height="140" fill="#EFEAE2"/><rect x="560" y="70" width="230" height="180" fill="#F1EEE8" stroke="var(--line)" stroke-width="2"/><line x1="675" y1="70" x2="675" y2="250" stroke="var(--line)" stroke-width="2"/><use href="#sofa" x="150" y="320"/><use href="#table" x="230" y="470"/><use href="#lamp" x="520" y="250"/><use href="#plant" x="740" y="320"/><use href="#chair" x="600" y="360"/><rect x="170" y="140" width="220" height="140" fill="#fff" stroke="var(--line)" stroke-width="2"/><rect x="190" y="160" width="180" height="100" fill="var(--wood2)"/></g>
+  <g id="device"><rect x="0" y="0" width="560" height="360" rx="18" fill="var(--ink)"/><rect x="16" y="16" width="528" height="328" rx="6" fill="#FBFAF7"/></g>
+ </defs>
+</svg>
+
+<!-- F1 -->
+<div class="frame" id="f1">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g transform="translate(120 230)"><use href="#room"/><text x="0" y="-22" class="lbl t">Physical space · Vietnam</text></g>
+  <g transform="translate(1110 330)"><text class="t" font-size="96" font-weight="700" fill="var(--ink)" letter-spacing="-2">YOUR</text><text y="110" class="t" font-size="96" font-weight="700" fill="var(--ink)" letter-spacing="-2">SHOWROOM.</text><text y="250" class="t" font-size="96" font-weight="700" fill="var(--slate)" letter-spacing="-2">YOUR STYLE.</text><rect y="300" width="120" height="4" fill="var(--wood)"/><text y="360" class="t" font-size="30" fill="var(--mute)">Tailored to your market</text></g>
+ </svg>
+ <div class="tag">01 · Nhu cầu</div><div class="logo">fMA<i></i></div>
+ <div class="sub">What if you could have a showroom tailored to your market, without first building one locally?</div>
+</div>
+
+<!-- F2 -->
+<div class="frame" id="f2">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g fill="#E6E2DB"><ellipse cx="560" cy="430" rx="230" ry="120"/><ellipse cx="980" cy="380" rx="170" ry="110"/><ellipse cx="1000" cy="620" rx="120" ry="150"/><ellipse cx="1350" cy="430" rx="250" ry="140"/><ellipse cx="1560" cy="720" rx="110" ry="60"/><ellipse cx="620" cy="700" rx="90" ry="130"/></g>
+  <g fill="none" stroke="var(--slate)" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"><path d="M1420 520 Q1200 260 990 360"/><path d="M1420 520 Q1000 200 560 410"/><path d="M1420 520 Q1520 600 1560 710"/></g>
+  <circle cx="1420" cy="520" r="14" fill="var(--slate)"/><circle cx="1420" cy="520" r="30" fill="none" stroke="var(--slate)" stroke-width="2" opacity=".4"/>
+  <text x="1450" y="510" class="t" font-size="24" font-weight="600" fill="var(--ink)">Vietnam</text><text x="1450" y="540" class="t" font-size="18" fill="var(--mute)">Manufacturers</text>
+  <g class="t" font-size="20" fill="var(--mute)"><text x="80" y="120"></text></g>
+  <g transform="translate(560 180)"><text class="t" font-size="64" font-weight="700" fill="var(--ink)" text-anchor="middle" x="400">fMA</text><text class="t" font-size="26" fill="var(--mute)" text-anchor="middle" x="400" y="44">furnitureMarket.Asia</text></g>
+  <g class="t" font-size="22" font-weight="500" fill="var(--ink)" text-anchor="middle"><text x="560" y="900">Buyers</text><text x="800" y="900">Importers</text><text x="1060" y="900">Distributors</text><text x="1300" y="900">Dealers</text></g>
+  <text x="1840" y="1040" class="t" font-size="16" fill="var(--mute)" text-anchor="end">Illustration</text>
+ </svg>
+ <div class="tag">02 · Giới thiệu fMA</div><div class="logo">fMA<i></i></div>
+ <div class="sub">fMA, furnitureMarket.Asia, connects international buyers, importers, distributors and dealers with furniture manufacturers in Vietnam.</div>
+</div>
+
+<!-- F3 -->
+<div class="frame" id="f3">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g transform="translate(100 260)"><g transform="scale(.56)"><use href="#room"/></g><text y="360" class="t" font-size="24" font-weight="600" fill="var(--ink)">① Staged in Vietnam</text><text y="-18" class="lbl t">Physical space</text></g>
+  <g transform="translate(720 260)"><g transform="scale(.56)"><use href="#room" opacity=".35"/><g stroke="var(--slate)" stroke-width="1.5" opacity=".6"><path d="M0 140H900M0 280H900M0 420H900M225 0V560M450 0V560M675 0V560"/></g><rect x="0" y="0" width="12" height="560" fill="var(--slate)" opacity=".7" transform="translate(600 0)"/></g><text y="360" class="t" font-size="24" font-weight="600" fill="var(--ink)">② Scanned in 3D</text></g>
+  <g transform="translate(1330 250)"><g transform="scale(.9)"><use href="#device"/><g transform="translate(26 26) scale(.565)"><use href="#room"/></g></g><text y="370" class="t" font-size="24" font-weight="600" fill="var(--ink)">③ Shared by link</text><text y="-8" class="lbl t">Digital showroom</text><g transform="translate(470 -10)"><circle r="30" fill="var(--slate)"/><text class="t" text-anchor="middle" y="8" font-size="24" fill="#fff">🔗</text></g></g>
+  <g stroke="var(--line)" stroke-width="3"><path d="M630 420h60M1240 420h60"/></g>
+ </svg>
+ <div class="tag">03 · Cách tạo showroom</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Real products are staged in a physical space in Vietnam, then scanned into an interactive 3D showroom, delivered as a shareable link.</div>
+</div>
+
+<!-- F4 -->
+<div class="frame" id="f4">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <rect x="160" y="170" width="1600" height="700" rx="16" fill="#EDE8E0"/>
+  <g transform="translate(230 230)"><rect width="380" height="480" rx="8" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="lbl t">Products</text><g transform="translate(30 90) scale(.9)"><use href="#sofa"/></g><g transform="translate(60 260)"><use href="#chair"/></g><g transform="translate(220 270)"><use href="#table" transform="scale(.7)"/></g><circle cx="340" cy="440" r="20" fill="var(--slate)"/><path d="M330 440l8 8 14-16" stroke="#fff" stroke-width="4" fill="none"/></g>
+  <g transform="translate(660 230)"><rect width="300" height="480" rx="8" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="lbl t">Style</text><g><rect x="30" y="90" width="110" height="110" rx="6" fill="var(--wood)"/><rect x="160" y="90" width="110" height="110" rx="6" fill="var(--wood2)"/><rect x="30" y="220" width="110" height="110" rx="6" fill="var(--sofa)"/><rect x="160" y="220" width="110" height="110" rx="6" fill="var(--sage)"/><rect x="30" y="350" width="110" height="110" rx="6" fill="#8A8F94"/><rect x="160" y="350" width="110" height="110" rx="6" fill="#F0ECE6" stroke="var(--line)"/></g><rect x="26" y="86" width="118" height="118" rx="8" fill="none" stroke="var(--slate)" stroke-width="4"/></g>
+  <g transform="translate(1010 230)"><rect width="380" height="480" rx="8" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="lbl t">Layout · Size</text><g stroke="var(--ink)" stroke-width="3" fill="none"><rect x="40" y="100" width="300" height="300"/><path d="M40 260H180V400M220 100V200H340"/></g><g fill="var(--wood2)"><rect x="60" y="300" width="90" height="40"/><rect x="240" y="130" width="70" height="40"/><rect x="250" y="280" width="60" height="60" rx="30"/></g><text x="40" y="440" class="t" font-size="20" fill="var(--mute)">— m² (agreed)</text></g>
+  <g transform="translate(1440 230)"><rect width="260" height="220" rx="8" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="lbl t">Branding</text><rect x="30" y="90" width="200" height="90" rx="6" fill="#F3F0EB"/><text x="130" y="145" text-anchor="middle" class="t" font-size="26" font-weight="700" fill="var(--ink)">YOUR BRAND</text>
+   <g transform="translate(0 250)"><rect width="260" height="230" rx="8" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="lbl t">Inquiry contact</text><circle cx="62" cy="120" r="26" fill="var(--wood2)"/><rect x="100" y="104" width="130" height="12" rx="6" fill="var(--line)"/><rect x="100" y="126" width="90" height="12" rx="6" fill="var(--line)"/><rect x="30" y="170" width="200" height="36" rx="18" fill="var(--slate)"/><text x="130" y="195" text-anchor="middle" class="t" font-size="18" fill="#fff">Sales contact</text></g></g>
+  <g transform="translate(1470 790) rotate(-8)"><rect x="-200" y="-40" width="400" height="80" rx="8" fill="none" stroke="var(--slate)" stroke-width="5"/><text text-anchor="middle" y="14" class="t" font-size="36" font-weight="700" fill="var(--slate)" letter-spacing="4">APPROVED PLAN</text></g>
+ </svg>
+ <div class="tag">04 · Lựa chọn trước triển khai</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Before staging begins, you choose the products, style, layout and size, and agree on branding and inquiry routing.</div>
+</div>
+
+<!-- F5 -->
+<div class="frame" id="f5">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <line x1="960" y1="190" x2="960" y2="880" stroke="var(--line)" stroke-width="2"/>
+  <g transform="translate(160 200)"><text class="lbl t">Equivalent local showroom</text>
+   <g class="t" font-size="30" fill="var(--ink)" transform="translate(0 80)">
+    <g><rect width="640" height="84" rx="10" fill="#fff" stroke="var(--line)"/><text x="32" y="54">Premises rental</text></g>
+    <g transform="translate(0 104)"><rect width="640" height="84" rx="10" fill="#fff" stroke="var(--line)"/><text x="32" y="54">Design &amp; fit-out</text></g>
+    <g transform="translate(0 208)"><rect width="640" height="84" rx="10" fill="#fff" stroke="var(--line)"/><text x="32" y="54">Display products purchase</text></g>
+    <g transform="translate(0 312)"><rect width="640" height="84" rx="10" fill="#fff" stroke="var(--line)"/><text x="32" y="54">International shipping &amp; import</text></g>
+    <g transform="translate(0 416)"><rect width="640" height="84" rx="10" fill="#fff" stroke="var(--line)"/><text x="32" y="54">Ongoing operating costs</text></g>
+   </g></g>
+  <g transform="translate(1120 200)"><text class="lbl t">fMA project in Vietnam</text>
+   <g transform="translate(0 80)"><rect width="640" height="500" rx="14" fill="#fff" stroke="var(--slate)" stroke-width="3"/>
+    <text x="40" y="70" class="t" font-size="34" font-weight="600" fill="var(--slate)">Agreed scope &amp; budget</text>
+    <g class="t" font-size="28" fill="var(--ink)"><text x="40" y="150">· Design</text><text x="40" y="210">· Display products</text><text x="40" y="270">· Staging &amp; 3D scanning</text><text x="40" y="330">· Budget &amp; usage period</text></g>
+    <line x1="40" y1="380" x2="600" y2="380" stroke="var(--line)"/>
+    <g class="t" font-size="22" fill="var(--mute)"><text x="40" y="430">Samples: borrowed · rented · supported</text><text x="40" y="466" font-style="italic">subject to agreement</text></g>
+   </g></g>
+ </svg>
+ <div class="tag">05 · Đầu tư ban đầu</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Instead of an equivalent showroom in your market, you agree on a defined scope: design, display products, budget and usage period.</div>
+</div>
+
+<!-- F6 -->
+<div class="frame" id="f6">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <path d="M330 260 L470 220 L560 300 L600 420 L560 560 L470 640 L340 620 L260 520 L230 380 Z" fill="#E6E2DB"/>
+  <circle cx="420" cy="430" r="16" fill="var(--ink)"/><text x="420" y="480" text-anchor="middle" class="t" font-size="20" font-weight="600" fill="var(--ink)">Importer</text>
+  <g fill="var(--slate)"><circle cx="350" cy="320" r="10"/><circle cx="520" cy="360" r="10"/><circle cx="420" cy="580" r="10"/></g>
+  <g stroke="var(--slate)" stroke-width="2" stroke-dasharray="4 6"><path d="M420 430L350 320M420 430L520 360M420 430L420 580"/></g>
+  <text x="240" y="720" class="t" font-size="18" fill="var(--mute)" font-style="italic">Illustrative concepts</text>
+  <g transform="translate(700 230)"><rect width="1100" height="0"/>
+   <g><rect width="340" height="420" rx="10" fill="#fff" stroke="var(--line)"/><rect x="20" y="20" width="300" height="220" fill="#F4F4F2"/><g transform="translate(60 120) scale(.6)"><use href="#sofa"/></g><g transform="translate(230 60) scale(.6)"><use href="#lamp"/></g><text x="24" y="290" class="t" font-size="26" font-weight="600" fill="var(--ink)">Modern &amp; compact</text><text x="24" y="326" class="t" font-size="18" fill="var(--mute)">Urban apartments</text><text x="24" y="390" class="t" font-size="18" fill="var(--slate)">🔗 Dealer link 1</text></g>
+   <g transform="translate(380 0)"><rect width="340" height="420" rx="10" fill="#fff" stroke="var(--line)"/><rect x="20" y="20" width="300" height="220" fill="#F2EBE1"/><g transform="translate(50 130) scale(.6)"><use href="#table"/></g><g transform="translate(170 100) scale(.6)"><use href="#chair"/></g><g transform="translate(240 90) scale(.7)"><use href="#plant"/></g><text x="24" y="290" class="t" font-size="26" font-weight="600" fill="var(--ink)">Warm wood &amp; natural</text><text x="24" y="326" class="t" font-size="18" fill="var(--mute)">Relaxed, welcoming</text><text x="24" y="390" class="t" font-size="18" fill="var(--slate)">🔗 Dealer link 2</text></g>
+   <g transform="translate(760 0)"><rect width="340" height="420" rx="10" fill="#fff" stroke="var(--line)"/><rect x="20" y="20" width="300" height="220" fill="#E9E8E6"/><g transform="translate(40 130) scale(.6)"><use href="#sofa"/></g><rect x="220" y="60" width="70" height="90" fill="none" stroke="var(--wood)" stroke-width="3"/><text x="24" y="290" class="t" font-size="26" font-weight="600" fill="var(--ink)">Premium</text><text x="24" y="326" class="t" font-size="18" fill="var(--mute)">Sophisticated settings</text><text x="24" y="390" class="t" font-size="18" fill="var(--slate)">🔗 Dealer link 3</text></g>
+  </g>
+ </svg>
+ <div class="tag">06 · Ví dụ tại Pháp</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Imagine an importer in France working with dealers in three cities. Each dealer receives its own link.</div>
+</div>
+
+<!-- F7 -->
+<div class="frame" id="f7">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g transform="translate(140 200)"><text class="lbl t">Physical space · after acceptance</text>
+   <g transform="translate(0 30)"><rect width="760" height="480" fill="#FBFAF7" stroke="var(--line)" stroke-width="2" stroke-dasharray="10 8"/><rect y="360" width="760" height="120" fill="#EFEAE2"/>
+    <g transform="translate(470 270)"><rect width="150" height="110" fill="var(--wood2)" stroke="var(--wood)" stroke-width="2"/><path d="M0 30H150M75 0V30" stroke="var(--wood)" stroke-width="2"/><rect x="110" y="40" width="130" height="90" fill="#EAD9C4" stroke="var(--wood)" stroke-width="2" transform="translate(40 30)"/></g>
+    <text x="40" y="80" class="t" font-size="28" font-weight="600" fill="var(--ink)">Samples returned</text><text x="40" y="120" class="t" font-size="28" font-weight="600" fill="var(--ink)">Temporary space dismantled</text></g></g>
+  <g transform="translate(1040 200)"><text class="lbl t">Digital showrooms · still online</text>
+   <g transform="translate(0 40) scale(.62)"><use href="#device"/><g transform="translate(26 26) scale(.565)"><use href="#room"/></g></g>
+   <g transform="translate(380 140) scale(.62)"><use href="#device"/><g transform="translate(26 26) scale(.565)"><use href="#room"/></g></g>
+   <g transform="translate(120 300) scale(.62)"><use href="#device"/><g transform="translate(26 26) scale(.565)"><use href="#room"/></g></g>
+   <g transform="translate(560 40)"><circle r="26" fill="var(--slate)"/><path d="M-10 0l7 8 14-16" stroke="#fff" stroke-width="4" fill="none"/></g>
+  </g>
+  <g transform="translate(140 790)"><text class="t" font-size="20" fill="var(--mute)">Agreed service period</text><rect y="20" width="1640" height="10" rx="5" fill="var(--line)"/><rect y="20" width="980" height="10" rx="5" fill="var(--slate)"/></g>
+ </svg>
+ <div class="tag">07 · Không gian thật &amp; bản số</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Once accepted, samples are returned and the space is dismantled, while the digital showroom stays online for the agreed period.</div>
+</div>
+
+<!-- F8 -->
+<div class="frame" id="f8">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g transform="translate(160 250)">
+   <g><rect width="360" height="110" rx="12" fill="#fff" stroke="var(--line)"/><text x="30" y="68" class="t" font-size="32" font-weight="500" fill="var(--ink)">Website</text></g>
+   <g transform="translate(0 140)"><rect width="360" height="110" rx="12" fill="#fff" stroke="var(--line)"/><text x="30" y="68" class="t" font-size="32" font-weight="500" fill="var(--ink)">Email</text></g>
+   <g transform="translate(0 280)"><rect width="360" height="110" rx="12" fill="#fff" stroke="var(--line)"/><text x="30" y="68" class="t" font-size="32" font-weight="500" fill="var(--ink)">QR code</text><g transform="translate(260 25)" fill="var(--ink)"><rect width="60" height="60" fill="none" stroke="var(--ink)" stroke-width="6"/><rect x="18" y="18" width="24" height="24"/></g></g>
+  </g>
+  <g stroke="var(--line)" stroke-width="3" fill="none"><path d="M520 305C640 305 640 450 760 450M520 445H760M520 585C640 585 640 450 760 450"/></g>
+  <g transform="translate(780 250)"><rect width="980" height="560" rx="16" fill="#EDE8E0"/>
+   <g transform="translate(260 70) scale(.82)"><rect width="560" height="380" rx="22" fill="var(--ink)"/><g transform="translate(20 20) scale(.578)"><use href="#room"/></g></g>
+   <g transform="translate(110 220)"><circle cx="40" cy="40" r="38" fill="var(--wood2)"/><rect x="0" y="90" width="80" height="140" rx="30" fill="var(--slate)"/></g>
+   <g transform="translate(800 220)"><circle cx="40" cy="40" r="38" fill="#E8D6C2"/><rect x="0" y="90" width="80" height="140" rx="30" fill="#A9A49C"/></g>
+   <g transform="translate(700 70)"><rect width="230" height="70" rx="12" fill="#fff" stroke="var(--line)"/><text x="20" y="44" class="t" font-size="20" fill="var(--ink)">✉ Purchase inquiry</text></g>
+   <text x="40" y="520" class="t" font-size="22" fill="var(--mute)">Consultations · Feedback · Inquiries</text></g>
+ </svg>
+ <div class="tag">08 · Ứng dụng bán hàng</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Share it on your website, by email or QR code, use it in consultations, and collect feedback and purchase inquiries.</div>
+</div>
+
+<!-- F9 -->
+<div class="frame" id="f9">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g class="t" text-anchor="middle">
+   <g transform="translate(360 330)"><circle r="90" fill="#fff" stroke="var(--line)" stroke-width="2"/><text y="12" font-size="30" font-weight="600" fill="var(--ink)">Your team</text></g>
+   <g transform="translate(760 330)"><circle r="90" fill="#fff" stroke="var(--slate)" stroke-width="3"/><text y="12" font-size="34" font-weight="700" fill="var(--slate)">fMA</text></g>
+   <g transform="translate(1160 330)"><circle r="90" fill="#fff" stroke="var(--line)" stroke-width="2"/><text y="0" font-size="22" font-weight="600" fill="var(--ink)">Manufacturers</text><text y="34" font-size="22" fill="var(--mute)">Vietnam</text></g>
+  </g>
+  <g stroke="var(--line)" stroke-width="3"><path d="M450 330H670M850 330H1070"/></g>
+  <g transform="translate(560 470)"><rect width="400" height="150" rx="10" fill="#fff" stroke="var(--line)"/><text x="30" y="56" class="t" font-size="26" font-weight="600" fill="var(--ink)">Confirm products</text><text x="30" y="104" class="t" font-size="26" font-weight="600" fill="var(--ink)">Quotations</text><circle cx="350" cy="75" r="22" fill="var(--slate)"/><path d="M340 75l7 8 14-16" stroke="#fff" stroke-width="4" fill="none"/></g>
+  <g transform="translate(1340 230)" class="t">
+   <text class="lbl t">Feedback helps you decide</text>
+   <g transform="translate(0 40)"><rect width="420" height="100" rx="10" fill="#fff" stroke="var(--line)"/><text x="30" y="62" font-size="30" font-weight="500" fill="var(--ink)">Order</text></g>
+   <g transform="translate(0 160)"><rect width="420" height="100" rx="10" fill="#fff" stroke="var(--line)"/><text x="30" y="62" font-size="30" font-weight="500" fill="var(--ink)">Refine collection</text></g>
+   <g transform="translate(0 280)"><rect width="420" height="100" rx="10" fill="#fff" stroke="var(--line)"/><text x="30" y="62" font-size="30" font-weight="500" fill="var(--ink)">Invest further</text></g>
+  </g>
+ </svg>
+ <div class="tag">09 · Quyết định tiếp theo</div><div class="logo">fMA<i></i></div>
+ <div class="sub">Your team works with fMA and the manufacturers to confirm products and quotations, and feedback helps you decide what's next.</div>
+</div>
+
+<!-- F10 -->
+<div class="frame" id="f10">
+ <svg class="art" viewBox="0 0 1920 1080">
+  <g transform="translate(140 300) scale(.5)" opacity=".9"><use href="#room"/></g>
+  <g transform="translate(1340 290) scale(.8)"><use href="#device"/><g transform="translate(26 26) scale(.565)"><use href="#room"/></g></g>
+  <g class="t" text-anchor="middle"><text x="960" y="430" font-size="120" font-weight="700" fill="var(--ink)" letter-spacing="-3">fMA</text><text x="960" y="480" font-size="28" fill="var(--mute)">furnitureMarket.Asia</text>
+   <text x="960" y="580" font-size="34" font-weight="600" fill="var(--ink)">Built and scanned in Vietnam.</text><text x="960" y="626" font-size="34" font-weight="600" fill="var(--slate)">Tailored to your market.</text>
+   <text x="960" y="730" font-size="24" fill="var(--mute)">[website]  ·  [email]  ·  [QR]</text></g>
+ </svg>
+ <div class="logo" style="opacity:0">fMA</div>
+ <div class="sub">Talk to fMA about the market you want to grow and the collection you want to introduce.</div>
+</div>
+</body>
+</html>
